@@ -41,24 +41,24 @@ namespace SmartX {
 		/// </summary>
 		// Static array of questions
 		static array<System::String^>^ questions = gcnew array<System::String^>{
-			"What is the size of an int data type in C++?",
-			"Which keyword is used to check a condition in C++?",
-			"How do you start a for loop that iterates from 1 to 5 inclusive?",
-			"What is the default value of an uninitialized int array in C++?",
-			"Which of the following is a correct way to declare an array of 10 integers?"
+			"What does #include <iostream> allow us to do?",
+			"What does using namespace std; do?",
+			"What is the purpose of int main() in C++?",
+			"How is cout typically used in C++?",
+			"What does return 0; signify in the main function?"
 		};
 
 		// Static 2D array of answers for each question
 		static array<array<System::String^>^>^ answers = gcnew array<array<System::String^>^>{
-			gcnew array<System::String^>{"2 bytes", "4 bytes", "8 bytes", "Depends on the compiler"},
-			gcnew array<System::String^>{"if", "check", "test", "examine"},
-			gcnew array<System::String^>{"for (int i = 1; i <= 5; i++)", "for (int i = 1; i < 5; i++)", "for (int i = 0; i <= 5; i++)", "for (int i = 0; i < 5; i++)"},
-			gcnew array<System::String^>{"0", "-1", "Garbage value", "None of the above"},
-			gcnew array<System::String^>{"int array[10];", "int array[] = {10};", "int array[10] = {};", "array int[10];"}
+			gcnew array<System::String^>{"Work with mathematical functions", "Work with input and output objects", "Define custom data types", "Manage memory allocation"},
+			gcnew array<System::String^>{"Imports a custom namespace for variable declarations", "Allows the use of objects and variables from the standard library", "Restricts the scope of variables to the main function", "Defines a new namespace for output operations"},
+			gcnew array<System::String^>{"Declares a custom function for mathematical operations", "Starts the execution of the program", "Defines a class for object-oriented programming", "Represents a placeholder for variable declarations"},
+			gcnew array<System::String^>{"To input data from the user", "To declare variables", "To perform mathematical operations", "To output/print text to the console"},
+			gcnew array<System::String^>{"To output/print text to the console", "Terminates the program abruptly", "Prompts the user for further input", "Starts an infinite loop"}
 		};
 
 		// Static array of indices for the correct answer of each question
-		static array<int>^ correctAnswers = gcnew array<int>{1, 0, 0, 2, 0};
+		static array<int>^ correctAnswers = gcnew array<int>{1, 1, 1, 3, 0};
 
 		// Fields for tracking the current question and number of right answers
 		static int currentQuestionIndex = 0;

@@ -8,3 +8,7 @@ C:\Users\Teodora\Desktop\New folder (2)\school-project-assignment-smartx\SmartX\
 C:\Users\Teodora\Desktop\New folder (2)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
 C:\Users\Teodora\Desktop\New folder (2)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
 C:\Users\Teodora\Desktop\New folder (2)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
