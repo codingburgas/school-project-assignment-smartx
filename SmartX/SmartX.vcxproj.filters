@@ -24,12 +24,18 @@
     <ClCompile Include="Exam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HTMLCssTheory.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Register.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Exam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLCssTheory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

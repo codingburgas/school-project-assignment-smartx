@@ -129,6 +129,7 @@ namespace SmartX {
 			this->Controls->Add(this->groupBox1);
 			this->Name = L"Register";
 			this->Text = L"Теория";
+			this->Load += gcnew System::EventHandler(this, &Register::Register_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
 			this->ResumeLayout(false);
@@ -142,5 +143,7 @@ namespace SmartX {
 		// Show the Exam form
 		examForm->Show();
 	}
-	};
+	private: System::Void Register_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
