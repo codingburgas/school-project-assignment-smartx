@@ -40,6 +40,7 @@ namespace SmartX {
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::Windows::Forms::GroupBox^ groupBox2;
 	private: System::Windows::Forms::RichTextBox^ richTextBox2;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	protected:
 
 
@@ -58,13 +59,16 @@ namespace SmartX {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Register::typeid));
 			this->buttonTest = (gcnew System::Windows::Forms::Button());
 			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
 			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// buttonTest
@@ -101,6 +105,7 @@ namespace SmartX {
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->pictureBox1);
 			this->groupBox2->Controls->Add(this->richTextBox2);
 			this->groupBox2->Location = System::Drawing::Point(643, 21);
 			this->groupBox2->Name = L"groupBox2";
@@ -115,10 +120,22 @@ namespace SmartX {
 				static_cast<System::Byte>(204)));
 			this->richTextBox2->Location = System::Drawing::Point(23, 21);
 			this->richTextBox2->Name = L"richTextBox2";
-			this->richTextBox2->Size = System::Drawing::Size(483, 364);
+			this->richTextBox2->Size = System::Drawing::Size(498, 162);
 			this->richTextBox2->TabIndex = 0;
 			this->richTextBox2->Text = L"#include <iostream>\n\nusing namespace std;\n\nint main() {\n   cout << \"Hello world!!"
 				L"!\";\n   return 0;\n}";
+			this->richTextBox2->TextChanged += gcnew System::EventHandler(this, &Register::richTextBox2_TextChanged);
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(23, 183);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(498, 270);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox1->TabIndex = 1;
+			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Register::pictureBox1_Click);
 			// 
 			// Register
 			// 
@@ -132,6 +149,7 @@ namespace SmartX {
 			this->Load += gcnew System::EventHandler(this, &Register::Register_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -145,5 +163,9 @@ namespace SmartX {
 	}
 	private: System::Void Register_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }

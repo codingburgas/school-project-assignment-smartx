@@ -1,5 +1,6 @@
   SmartX.Exam.resources - Embedded, ContainedInManifestFile, 
   SmartX.HTMLCssTheory.resources - Embedded, ContainedInManifestFile, 
+  SmartX.MainForm.resources - Embedded, ContainedInManifestFile, 
   SmartX.Register.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly SmartX, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
@@ -23,5 +24,8 @@ Class SmartX.HTMLCssTheory: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SmartX.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

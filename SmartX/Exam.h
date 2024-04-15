@@ -77,6 +77,7 @@ namespace SmartX {
 		static int currentQuestionIndex = 0;
 		static int rightAnswersCount = 0;
 		static const int questionCount = 5;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 
 		/// <summary>
 		/// Required designer variable.
@@ -90,6 +91,7 @@ namespace SmartX {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Exam::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->radioAnswer1 = (gcnew System::Windows::Forms::RadioButton());
 			this->radioAnswer2 = (gcnew System::Windows::Forms::RadioButton());
@@ -97,6 +99,8 @@ namespace SmartX {
 			this->radioAnswer4 = (gcnew System::Windows::Forms::RadioButton());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// label1
@@ -105,7 +109,7 @@ namespace SmartX {
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label1->Location = System::Drawing::Point(12, 29);
-			this->label1->Name = L"labelQuestion";
+			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(53, 20);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"label1";
@@ -178,11 +182,22 @@ namespace SmartX {
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Exam::button2_Click);
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(248, 100);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(317, 207);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox1->TabIndex = 7;
+			this->pictureBox1->TabStop = false;
+			// 
 			// Exam
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(440, 371);
+			this->ClientSize = System::Drawing::Size(577, 371);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->radioAnswer4);
@@ -193,12 +208,34 @@ namespace SmartX {
 			this->Name = L"Exam";
 			this->Text = L"Изпит";
 			this->Load += gcnew System::EventHandler(this, &Exam::Exam_Load);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void Exam_Load(System::Object^ sender, System::EventArgs^ e) {
+		loadQuestions();
+	}
+
+	private: System::Void loadQuestions() {
+		// Check last question
+		if (currentQuestionIndex == questionCount) {
+			MessageBox::Show("Right answers: " + rightAnswersCount);
+			if (rightAnswersCount < questionCount) {
+				MessageBox::Show("You do not have enough points to proceed.");
+				rightAnswersCount = 0;
+				currentQuestionIndex = 0;
+			}
+			else {
+				MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
+				// TODO Show main form!!!
+
+				this->Close();
+				return;
+			}
+		}
+
 		// Set the question
 		label1->Text = questions[currentQuestionIndex];
 
@@ -207,52 +244,32 @@ namespace SmartX {
 		radioAnswer2->Text = answers[currentQuestionIndex][1];
 		radioAnswer3->Text = answers[currentQuestionIndex][2];
 		radioAnswer4->Text = answers[currentQuestionIndex][3];
+
 	}
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	while (rightAnswersCount != questionCount) {
-		if (radioAnswer1->Checked == true
-			|| radioAnswer2->Checked == true
-			|| radioAnswer3->Checked == true
-			|| radioAnswer4->Checked == true) {
-			if (radioAnswer1->Checked == true) {
-				if (currentQuestionIndex >= 0 && currentQuestionIndex <= questionCount) {
-					if (radioAnswer1->Text == answers[currentQuestionIndex][correctAnswers[currentQuestionIndex]]) {
-						rightAnswersCount++;
-					}
-				}
-			}
-			else if (radioAnswer2->Checked == true) {
-				if (currentQuestionIndex >= 0 && currentQuestionIndex <= questionCount) {
-					if (radioAnswer2->Text == answers[currentQuestionIndex][correctAnswers[currentQuestionIndex]]) {
-						rightAnswersCount++;
-					}
-				}
-			}
-			else if (radioAnswer3->Checked == true) {
-				if (currentQuestionIndex >= 0 && currentQuestionIndex <= questionCount) {
-					if (radioAnswer3->Text == answers[currentQuestionIndex][correctAnswers[currentQuestionIndex]]) {
-						rightAnswersCount++;
-					}
-				}
-			}
-			else {
-				if (currentQuestionIndex >= 0 && currentQuestionIndex <= questionCount) {
-					if (radioAnswer3->Text == answers[currentQuestionIndex][correctAnswers[currentQuestionIndex]]) {
-						rightAnswersCount++;
-					}
-				}
-			}
+
+	private: System::Int32 getAnswer() {
+		if (radioAnswer1->Checked) {
+			return 0;
 		}
+		else if (radioAnswer2->Checked) {
+			return 1;
+		}
+		else if (radioAnswer3->Checked) {
+			return 2;
+		}
+		else if (radioAnswer4->Checked) {
+			return 3;
+		}
+		return -1;
 	}
-	currentQuestionIndex++;
-	if (currentQuestionIndex < questionCount) {
-		LoadCurrentQuestion();
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (getAnswer() == correctAnswers[currentQuestionIndex]) {
+			rightAnswersCount++;
+		}
+
+		currentQuestionIndex++;
+		loadQuestions();
 	}
-	else {
-		String^ message = "Count right answers: " + rightAnswersCount;
-		MessageBox::Show(message);
-	}
-}
 	private: void LoadCurrentQuestion() {
 		label1->Text = questions[currentQuestionIndex];
 		radioAnswer1->Text = answers[currentQuestionIndex][0];
@@ -265,32 +282,16 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	}
 
 	private: System::Void radioAnswer1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-		if (radioAnswer1->Checked) {
-			if (correctAnswers[currentQuestionIndex] == 1) {
-				rightAnswersCount++;
-			}
-		}
+
 	}
 private: System::Void radioAnswer2_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-	if (radioAnswer2->Checked) {
-		if (correctAnswers[currentQuestionIndex] == 1) {
-			rightAnswersCount++;
-		}
-	}
+
 }
 private: System::Void radioAnswer3_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-	if (radioAnswer3->Checked) {
-		if (correctAnswers[currentQuestionIndex] == 1) {
-			rightAnswersCount++;
-		}
-	}
+
 }
 private: System::Void radioAnswer4_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-	if (radioAnswer4->Checked) {
-		if (correctAnswers[currentQuestionIndex] == 1) {
-			rightAnswersCount++;
-		}
-	}
+
 }
 };
 }
