@@ -120,8 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exam.cpp" />
+    <ClCompile Include="Exam3.cpp" />
     <ClCompile Include="HTMLCssTheory.cpp" />
     <ClCompile Include="Exam2.cpp" />
+    <ClCompile Include="Lesson3.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainForm.cpp" />
     <ClCompile Include="Register.cpp" />
@@ -130,10 +132,16 @@
     <ClInclude Include="Exam.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Exam3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="HTMLCssTheory.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Exam2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lesson3.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MainForm.h">
@@ -152,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exam2.resx">
       <DependentUpon>Exam2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson3.resx">
+      <DependentUpon>Lesson3.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.h</DependentUpon>

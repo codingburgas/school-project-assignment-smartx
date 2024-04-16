@@ -1,6 +1,8 @@
 #pragma once
 #include "Register.h"
 #include "HTMLCssTheory.h"
+#include "Lesson3.h"
+
 namespace SmartX {
 
 	using namespace System;
@@ -75,9 +77,10 @@ namespace SmartX {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(657, 169);
+			this->button1->Location = System::Drawing::Point(493, 137);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(352, 50);
+			this->button1->Size = System::Drawing::Size(264, 41);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"C++ Beginner";
 			this->button1->UseVisualStyleBackColor = true;
@@ -87,9 +90,10 @@ namespace SmartX {
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button2->Location = System::Drawing::Point(657, 240);
+			this->button2->Location = System::Drawing::Point(493, 195);
+			this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(352, 50);
+			this->button2->Size = System::Drawing::Size(264, 41);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"C++ Intermediate";
 			this->button2->UseVisualStyleBackColor = true;
@@ -98,9 +102,10 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(203, 12);
+			this->pictureBox1->Location = System::Drawing::Point(152, 10);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(656, 113);
+			this->pictureBox1->Size = System::Drawing::Size(492, 92);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 3;
 			this->pictureBox1->TabStop = false;
@@ -109,20 +114,23 @@ namespace SmartX {
 			// 
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button3->Location = System::Drawing::Point(657, 316);
+			this->button3->Location = System::Drawing::Point(493, 257);
+			this->button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(352, 50);
+			this->button3->Size = System::Drawing::Size(264, 41);
 			this->button3->TabIndex = 4;
 			this->button3->Text = L"C++ Beginner";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MainForm::button3_Click);
 			// 
 			// button4
 			// 
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button4->Location = System::Drawing::Point(657, 390);
+			this->button4->Location = System::Drawing::Point(493, 317);
+			this->button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(352, 50);
+			this->button4->Size = System::Drawing::Size(264, 41);
 			this->button4->TabIndex = 5;
 			this->button4->Text = L"C++ Beginner";
 			this->button4->UseVisualStyleBackColor = true;
@@ -131,9 +139,10 @@ namespace SmartX {
 			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button5->Location = System::Drawing::Point(657, 467);
+			this->button5->Location = System::Drawing::Point(493, 379);
+			this->button5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(352, 50);
+			this->button5->Size = System::Drawing::Size(264, 41);
 			this->button5->TabIndex = 6;
 			this->button5->Text = L"C++ Beginner";
 			this->button5->UseVisualStyleBackColor = true;
@@ -141,19 +150,20 @@ namespace SmartX {
 			// pictureBox3
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(12, 155);
+			this->pictureBox3->Location = System::Drawing::Point(9, 126);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(639, 387);
+			this->pictureBox3->Size = System::Drawing::Size(479, 314);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox3->TabIndex = 8;
 			this->pictureBox3->TabStop = false;
 			// 
 			// MainForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
-			this->ClientSize = System::Drawing::Size(1066, 578);
+			this->ClientSize = System::Drawing::Size(800, 470);
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button4);
@@ -161,6 +171,7 @@ namespace SmartX {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"MainForm";
 			this->Text = L"MainForm";
 			this->Load += gcnew System::EventHandler(this, &MainForm::MainForm_Load);
@@ -181,6 +192,10 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void MainForm_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	Lesson3^ lesson3 = gcnew Lesson3();
+	lesson3->Show();
 }
 };
 }
