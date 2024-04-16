@@ -155,6 +155,9 @@
     <EmbeddedResource Include="Exam.resx">
       <DependentUpon>Exam.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exam3.resx">
+      <DependentUpon>Exam3.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HTMLCssTheory.resx">
       <DependentUpon>HTMLCssTheory.h</DependentUpon>
     </EmbeddedResource>
