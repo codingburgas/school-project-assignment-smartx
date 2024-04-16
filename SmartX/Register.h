@@ -64,8 +64,8 @@ namespace SmartX {
 			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -73,12 +73,14 @@ namespace SmartX {
 			// 
 			// buttonTest
 			// 
+			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->buttonTest->Location = System::Drawing::Point(469, 400);
 			this->buttonTest->Name = L"buttonTest";
 			this->buttonTest->Size = System::Drawing::Size(135, 47);
 			this->buttonTest->TabIndex = 0;
 			this->buttonTest->Text = L"Към теста";
-			this->buttonTest->UseVisualStyleBackColor = true;
+			this->buttonTest->UseVisualStyleBackColor = false;
 			this->buttonTest->Click += gcnew System::EventHandler(this, &Register::button1_Click);
 			// 
 			// richTextBox1
@@ -114,6 +116,17 @@ namespace SmartX {
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Примерен код";
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(23, 183);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(498, 270);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox1->TabIndex = 1;
+			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Register::pictureBox1_Click);
+			// 
 			// richTextBox2
 			// 
 			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Lucida Console", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -126,21 +139,11 @@ namespace SmartX {
 				L"!\";\n   return 0;\n}";
 			this->richTextBox2->TextChanged += gcnew System::EventHandler(this, &Register::richTextBox2_TextChanged);
 			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(23, 183);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(498, 270);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->pictureBox1->TabIndex = 1;
-			this->pictureBox1->TabStop = false;
-			this->pictureBox1->Click += gcnew System::EventHandler(this, &Register::pictureBox1_Click);
-			// 
 			// Register
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::Lavender;
 			this->ClientSize = System::Drawing::Size(1180, 497);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);

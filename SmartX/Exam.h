@@ -164,22 +164,25 @@ namespace SmartX {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->button1->Location = System::Drawing::Point(299, 313);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 5;
 			this->button1->Text = L"Отговори";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Exam::button1_Click);
 			// 
 			// button2
 			// 
+			this->button2->BackColor = System::Drawing::Color::Lavender;
 			this->button2->Location = System::Drawing::Point(15, 310);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 6;
 			this->button2->Text = L"Откажи се";
-			this->button2->UseVisualStyleBackColor = true;
+			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &Exam::button2_Click);
 			// 
 			// pictureBox1
