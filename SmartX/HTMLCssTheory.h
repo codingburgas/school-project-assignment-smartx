@@ -1,4 +1,5 @@
 #pragma once
+#include "Exam2.h"
 
 namespace SmartX {
 
@@ -165,7 +166,11 @@ namespace SmartX {
 private: System::Void richTextBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs^ e) {
+	// Create an instance of the Exam form
+	Exam2^ exam2Form = gcnew Exam2();
 
+	// Show the Exam form
+	exam2Form->Show();
 }
 };
 }
