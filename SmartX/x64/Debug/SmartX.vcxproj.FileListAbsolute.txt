@@ -31,3 +31,10 @@ C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Deb
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
 C:\Users\Teodora\Desktop\new1\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
 C:\Users\Teodora\Desktop\new1\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.HTMLCssTheory.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam2.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
+C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources

@@ -121,9 +121,11 @@
   <ItemGroup>
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Exam3.cpp" />
+    <ClCompile Include="Exam4.cpp" />
     <ClCompile Include="HTMLCssTheory.cpp" />
     <ClCompile Include="Exam2.cpp" />
     <ClCompile Include="Lesson3.cpp" />
+    <ClCompile Include="Lesson4.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainForm.cpp" />
     <ClCompile Include="Register.cpp" />
@@ -135,6 +137,9 @@
     <ClInclude Include="Exam3.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Exam4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="HTMLCssTheory.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -142,6 +147,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Lesson3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lesson4.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MainForm.h">
@@ -158,6 +166,9 @@
     <EmbeddedResource Include="Exam3.resx">
       <DependentUpon>Exam3.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exam4.resx">
+      <DependentUpon>Exam4.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HTMLCssTheory.resx">
       <DependentUpon>HTMLCssTheory.h</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson3.resx">
       <DependentUpon>Lesson3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson4.resx">
+      <DependentUpon>Lesson4.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.h</DependentUpon>

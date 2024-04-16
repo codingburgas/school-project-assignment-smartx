@@ -1,8 +1,10 @@
   SmartX.Exam.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam3.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Exam4.resources - Embedded, ContainedInManifestFile, 
   SmartX.HTMLCssTheory.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam2.resources - Embedded, ContainedInManifestFile, 
   SmartX.Lesson3.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Lesson4.resources - Embedded, ContainedInManifestFile, 
   SmartX.MainForm.resources - Embedded, ContainedInManifestFile, 
   SmartX.Register.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
@@ -26,6 +28,9 @@ Class SmartX.Exam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class SmartX.Exam3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SmartX.Exam4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Exam2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -33,6 +38,9 @@ Class SmartX.HTMLCssTheory: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Lesson3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SmartX.Lesson4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

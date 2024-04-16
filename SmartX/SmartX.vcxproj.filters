@@ -39,6 +39,12 @@
     <ClCompile Include="Exam3.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson4.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam4.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Register.h">
@@ -60,6 +66,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Exam3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exam4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
