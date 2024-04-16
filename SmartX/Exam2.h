@@ -47,24 +47,24 @@ namespace SmartX {
 		/// </summary>
 		// Static array of questions
 		static array<System::String^>^ questions = gcnew array<System::String^>{
-			"What does #include <iostream> allow us to do?",
-				"What does using namespace std; do?",
-				"What is the purpose of int main() in C++?",
-				"How is cout typically used in C++?",
-				"What does return 0; signify in the main function?"
+			"What type of variable is used to store whole numbers without decimals?",
+				"Which variable type is suitable for storing single characters like 'x' or '5'?",
+				"Which variable type is appropriate for storing true/false values?",
+				"What is the correct variable type to store floating-point numbers with decimals?",
+				"Which variable type is used to store sequences of characters, such as Hello?"
 		};
 
 		// Static 2D array of answers for each question
 		static array<array<System::String^>^>^ answers = gcnew array<array<System::String^>^>{
-			gcnew array<System::String^>{"Work with mathematical functions", "Work with input and output objects", "Define custom data types", "Manage memory allocation"},
-				gcnew array<System::String^>{"Imports a custom namespace for variable declarations", "Allows the use of objects and variables from the standard library", "Restricts the scope of variables to the main function", "Defines a new namespace for output operations"},
-				gcnew array<System::String^>{"Declares a custom function for mathematical operations", "Starts the execution of the program", "Defines a class for object-oriented programming", "Represents a placeholder for variable declarations"},
-				gcnew array<System::String^>{"To input data from the user", "To declare variables", "To perform mathematical operations", "To output/print text to the console"},
-				gcnew array<System::String^>{"To output/print text to the console", "Terminates the program abruptly", "Prompts the user for further input", "Starts an infinite loop"}
+			gcnew array<System::String^>{"float", "double", "int", "char"},
+				gcnew array<System::String^>{"bool", "string", "int", "char"},
+				gcnew array<System::String^>{"int", "double", "bool", "string"},
+				gcnew array<System::String^>{"char", "bool", "double", "int"},
+				gcnew array<System::String^>{"int", "char", "string", "bool"}
 		};
 
 		// Static array of indices for the correct answer of each question
-		static array<int>^ correctAnswers = gcnew array<int>{1, 1, 1, 3, 0};
+		static array<int>^ correctAnswers = gcnew array<int>{2, 3, 2, 2, 2};
 
 		// Fields for tracking the current question and number of right answers
 		static int currentQuestionIndex = 0;
@@ -123,7 +123,7 @@ namespace SmartX {
 			// 
 			this->radioAnswer2->AutoSize = true;
 			this->radioAnswer2->Location = System::Drawing::Point(25, 142);
-			this->radioAnswer2->Name = L"radioButton1";
+			this->radioAnswer2->Name = L"radioAnswer2";
 			this->radioAnswer2->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer2->TabIndex = 3;
 			this->radioAnswer2->TabStop = true;
@@ -134,7 +134,7 @@ namespace SmartX {
 			// 
 			this->radioAnswer3->AutoSize = true;
 			this->radioAnswer3->Location = System::Drawing::Point(25, 186);
-			this->radioAnswer3->Name = L"radioButton2";
+			this->radioAnswer3->Name = L"radioAnswer3";
 			this->radioAnswer3->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer3->TabIndex = 4;
 			this->radioAnswer3->TabStop = true;
@@ -145,23 +145,12 @@ namespace SmartX {
 			// 
 			this->radioAnswer4->AutoSize = true;
 			this->radioAnswer4->Location = System::Drawing::Point(25, 229);
-			this->radioAnswer4->Name = L"radioButton3";
+			this->radioAnswer4->Name = L"radioAnswer4";
 			this->radioAnswer4->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer4->TabIndex = 5;
 			this->radioAnswer4->TabStop = true;
 			this->radioAnswer4->Text = L"radioButton1";
 			this->radioAnswer4->UseVisualStyleBackColor = true;
-			// 
-			// button2
-			// 
-			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(25, 288);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(127, 49);
-			this->button2->TabIndex = 7;
-			this->button2->Text = L"Откажи се";
-			this->button2->UseVisualStyleBackColor = false;
-			this->button2->Click += gcnew System::EventHandler(this, &Exam2::button2_Click);
 			// 
 			// button1
 			// 
@@ -175,6 +164,17 @@ namespace SmartX {
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Exam2::button1_Click);
 			// 
+			// button2
+			// 
+			this->button2->BackColor = System::Drawing::Color::Lavender;
+			this->button2->Location = System::Drawing::Point(25, 288);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(127, 49);
+			this->button2->TabIndex = 7;
+			this->button2->Text = L"Откажи се";
+			this->button2->UseVisualStyleBackColor = false;
+			this->button2->Click += gcnew System::EventHandler(this, &Exam2::button2_Click);
+			// 
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
@@ -184,12 +184,13 @@ namespace SmartX {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 9;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Exam2::pictureBox1_Click);
 			// 
-			// Lesson2
+			// Exam2
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(581, 349);
+			this->ClientSize = System::Drawing::Size(729, 376);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->button2);
@@ -198,7 +199,7 @@ namespace SmartX {
 			this->Controls->Add(this->radioAnswer2);
 			this->Controls->Add(this->radioAnswer1);
 			this->Controls->Add(this->label1);
-			this->Name = L"Lesson2";
+			this->Name = L"Exam2";
 			this->Text = L"Lesson2";
 			this->Load += gcnew System::EventHandler(this, &Exam2::Lesson2_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -272,6 +273,8 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

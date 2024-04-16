@@ -48,24 +48,24 @@ namespace SmartX {
 		/// </summary>
 		// Static array of questions
 		static array<System::String^>^ questions = gcnew array<System::String^>{
-			"What does #include <iostream> allow us to do?",
-				"What does using namespace std; do?",
-				"What is the purpose of int main() in C++?",
-				"How is cout typically used in C++?",
-				"What does return 0; signify in the main function?"
+			"Which conditional statement is used to execute a block of code if a specified condition is true?",
+				"What is the purpose of the 'else' statement in C++?",
+				"In C++, what is the purpose of the 'else if' statement?",
+				"Which statement in C++ allows specifying many alternative blocks of code to be executed based on the value of an expression?",
+				"What is the primary purpose of the 'switch' statement in C++?"
 		};
 
 		// Static 2D array of answers for each question
 		static array<array<System::String^>^>^ answers = gcnew array<array<System::String^>^>{
-			gcnew array<System::String^>{"Work with mathematical functions", "Work with input and output objects", "Define custom data types", "Manage memory allocation"},
-				gcnew array<System::String^>{"Imports a custom namespace for variable declarations", "Allows the use of objects and variables from the standard library", "Restricts the scope of variables to the main function", "Defines a new namespace for output operations"},
-				gcnew array<System::String^>{"Declares a custom function for mathematical operations", "Starts the execution of the program", "Defines a class for object-oriented programming", "Represents a placeholder for variable declarations"},
-				gcnew array<System::String^>{"To input data from the user", "To declare variables", "To perform mathematical operations", "To output/print text to the console"},
-				gcnew array<System::String^>{"To output/print text to the console", "Terminates the program abruptly", "Prompts the user for further input", "Starts an infinite loop"}
+			gcnew array<System::String^>{"while", "for", "if", "switch"},
+				gcnew array<System::String^>{"To specify a new condition to test", "To execute a block of code unconditionally", "To execute a block of code if the specified condition is true", "To execute a block of code if the specified condition is false"},
+				gcnew array<System::String^>{"To specify a block of code to be executed if a condition is true", "To specify a block of code to be executed if a condition is false", "To specify a new condition to test if the first condition is false", "To specify multiple alternative blocks of code to be executed"},
+				gcnew array<System::String^>{"if", "else", "switch", "else if"},
+				gcnew array<System::String^>{"To execute a block of code if a specified condition is true", "To execute a block of code if no condition is met", "To specify many alternative blocks of code to be executed based on the value of an expression", "To specify a new condition to test if the first condition is false"}
 		};
 
 		// Static array of indices for the correct answer of each question
-		static array<int>^ correctAnswers = gcnew array<int>{1, 1, 1, 3, 0};
+		static array<int>^ correctAnswers = gcnew array<int>{2, 3, 2, 2, 2};
 
 		// Fields for tracking the current question and number of right answers
 		static int currentQuestionIndex = 0;
@@ -101,10 +101,10 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(191, 62);
-			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox1->Location = System::Drawing::Point(333, 66);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(238, 168);
+			this->pictureBox1->Size = System::Drawing::Size(317, 207);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 17;
 			this->pictureBox1->TabStop = false;
@@ -113,10 +113,10 @@ namespace SmartX {
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->button1->Location = System::Drawing::Point(258, 235);
-			this->button1->Margin = System::Windows::Forms::Padding(2);
+			this->button1->Location = System::Drawing::Point(344, 289);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(84, 37);
+			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 16;
 			this->button1->Text = L"Отговори";
 			this->button1->UseVisualStyleBackColor = false;
@@ -125,10 +125,10 @@ namespace SmartX {
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(32, 234);
-			this->button2->Margin = System::Windows::Forms::Padding(2);
+			this->button2->Location = System::Drawing::Point(43, 288);
+			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(95, 40);
+			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 15;
 			this->button2->Text = L"Откажи се";
 			this->button2->UseVisualStyleBackColor = false;
@@ -137,10 +137,10 @@ namespace SmartX {
 			// radioAnswer1
 			// 
 			this->radioAnswer1->AutoSize = true;
-			this->radioAnswer1->Location = System::Drawing::Point(32, 78);
-			this->radioAnswer1->Margin = System::Windows::Forms::Padding(2);
+			this->radioAnswer1->Location = System::Drawing::Point(43, 96);
+			this->radioAnswer1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer1->Name = L"radioAnswer1";
-			this->radioAnswer1->Size = System::Drawing::Size(85, 17);
+			this->radioAnswer1->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer1->TabIndex = 11;
 			this->radioAnswer1->TabStop = true;
 			this->radioAnswer1->Text = L"radioButton1";
@@ -149,10 +149,10 @@ namespace SmartX {
 			// radioAnswer2
 			// 
 			this->radioAnswer2->AutoSize = true;
-			this->radioAnswer2->Location = System::Drawing::Point(32, 115);
-			this->radioAnswer2->Margin = System::Windows::Forms::Padding(2);
+			this->radioAnswer2->Location = System::Drawing::Point(43, 142);
+			this->radioAnswer2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer2->Name = L"radioAnswer2";
-			this->radioAnswer2->Size = System::Drawing::Size(85, 17);
+			this->radioAnswer2->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer2->TabIndex = 12;
 			this->radioAnswer2->TabStop = true;
 			this->radioAnswer2->Text = L"radioButton1";
@@ -161,10 +161,10 @@ namespace SmartX {
 			// radioAnswer3
 			// 
 			this->radioAnswer3->AutoSize = true;
-			this->radioAnswer3->Location = System::Drawing::Point(32, 151);
-			this->radioAnswer3->Margin = System::Windows::Forms::Padding(2);
+			this->radioAnswer3->Location = System::Drawing::Point(43, 186);
+			this->radioAnswer3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer3->Name = L"radioAnswer3";
-			this->radioAnswer3->Size = System::Drawing::Size(85, 17);
+			this->radioAnswer3->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer3->TabIndex = 13;
 			this->radioAnswer3->TabStop = true;
 			this->radioAnswer3->Text = L"radioButton1";
@@ -173,10 +173,10 @@ namespace SmartX {
 			// radioAnswer4
 			// 
 			this->radioAnswer4->AutoSize = true;
-			this->radioAnswer4->Location = System::Drawing::Point(32, 186);
-			this->radioAnswer4->Margin = System::Windows::Forms::Padding(2);
+			this->radioAnswer4->Location = System::Drawing::Point(43, 229);
+			this->radioAnswer4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer4->Name = L"radioAnswer4";
-			this->radioAnswer4->Size = System::Drawing::Size(85, 17);
+			this->radioAnswer4->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer4->TabIndex = 14;
 			this->radioAnswer4->TabStop = true;
 			this->radioAnswer4->Text = L"radioButton1";
@@ -187,18 +187,17 @@ namespace SmartX {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(29, 20);
-			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label1->Location = System::Drawing::Point(39, 25);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(46, 17);
+			this->label1->Size = System::Drawing::Size(53, 20);
 			this->label1->TabIndex = 10;
 			this->label1->Text = L"label1";
 			// 
 			// Exam3
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(458, 294);
+			this->ClientSize = System::Drawing::Size(777, 359);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->button2);
@@ -207,6 +206,7 @@ namespace SmartX {
 			this->Controls->Add(this->radioAnswer2);
 			this->Controls->Add(this->radioAnswer1);
 			this->Controls->Add(this->label1);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Exam3";
 			this->Text = L"Exam3";
 			this->Load += gcnew System::EventHandler(this, &Exam3::Exam3_Load);

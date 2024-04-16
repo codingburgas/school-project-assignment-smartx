@@ -90,8 +90,7 @@ namespace SmartX {
 			this->richTextBox1->Name = L"richTextBox1";
 			this->richTextBox1->Size = System::Drawing::Size(584, 364);
 			this->richTextBox1->TabIndex = 2;
-			this->richTextBox1->Text = L"Това е теорията на нещата, на които ще се научите.\nТя е много важна, защото трябв"
-				L"а да разбирате тези неща.";
+			this->richTextBox1->Text = resources->GetString(L"richTextBox1.Text");
 			this->richTextBox1->TextChanged += gcnew System::EventHandler(this, &HTMLCssTheory::richTextBox1_TextChanged);
 			// 
 			// buttonTest
@@ -120,9 +119,9 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(99, 218);
+			this->pictureBox1->Location = System::Drawing::Point(80, 208);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(364, 256);
+			this->pictureBox1->Size = System::Drawing::Size(404, 256);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -135,8 +134,8 @@ namespace SmartX {
 			this->richTextBox2->Name = L"richTextBox2";
 			this->richTextBox2->Size = System::Drawing::Size(515, 191);
 			this->richTextBox2->TabIndex = 0;
-			this->richTextBox2->Text = L"#include <iostream>\n\nusing namespace std;\n\nint main() {\n   cout << \"Hello world!!"
-				L"!\";\n   return 0;\n}";
+			this->richTextBox2->Text = L"#include <iostream>\nusing namespace std;\n\nint main() {\n\n  int myNum = 15;  // Now"
+				L" myNum is 15\n  myNum = 10;   // Now myNum is 10\n  cout << myNum;\n  return 0;\n\n}";
 			// 
 			// HTMLCssTheory
 			// 

@@ -29,3 +29,5 @@ C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Deb
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\Teodora\Desktop\new1\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\Teodora\Desktop\new1\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
