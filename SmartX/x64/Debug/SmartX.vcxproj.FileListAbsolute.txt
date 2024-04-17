@@ -38,3 +38,14 @@ C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-sm
 C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
 C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
 C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.HTMLCssTheory.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam2.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache

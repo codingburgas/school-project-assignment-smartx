@@ -24,26 +24,26 @@
     <ClCompile Include="Exam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HTMLCssTheory.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="MainForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Exam2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson3.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="Exam3.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson4.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Exam4.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLCssTheory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
