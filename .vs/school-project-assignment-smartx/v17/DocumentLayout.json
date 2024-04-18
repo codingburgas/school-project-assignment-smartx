@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam51.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartX\\Exam51.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartX\\Exam52.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartX\\Exam52.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartX\\Exam52.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,23 +26,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exam52.resx",
+              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.resx",
+              "RelativeDocumentMoniker": "SmartX\\Exam52.resx",
+              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.resx",
+              "RelativeToolTip": "SmartX\\Exam52.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-18T16:59:54.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exam52.h",
+              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.h",
+              "RelativeDocumentMoniker": "SmartX\\Exam52.h",
+              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.h",
+              "RelativeToolTip": "SmartX\\Exam52.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T16:59:42.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exam52.cpp",
+              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.cpp",
+              "RelativeDocumentMoniker": "SmartX\\Exam52.cpp",
+              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam52.cpp",
+              "RelativeToolTip": "SmartX\\Exam52.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T16:59:38.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exam51.cpp",
+              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam51.cpp",
+              "RelativeDocumentMoniker": "SmartX\\Exam51.cpp",
+              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam51.cpp",
+              "RelativeToolTip": "SmartX\\Exam51.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T16:59:33.81Z",
+              "EditorCaption": ""
             }
           ]
         }

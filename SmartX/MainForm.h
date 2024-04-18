@@ -223,5 +223,9 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	Lesson4^ lesson4 = gcnew Lesson4();
 	lesson4->Show();
 }
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+		   Lesson5^ lesson5 = gcnew Lesson5();
+		   lesson5->Show();
+	   }
 };
 }
