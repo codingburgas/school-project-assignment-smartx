@@ -1,2 +1,190 @@
-﻿  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  SmartX.vcxproj -> C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\x64\Debug\SmartX.exe
+﻿  Exam5.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(77,47): error C2086: 'System::Windows::Forms::PictureBox ^SmartX::Exam5::pictureBox1': redefinition
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(83,38): error C2086: 'System::ComponentModel::Container ^SmartX::Exam5::components': redefinition
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(212,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(213,2): error C3861: 'loadQuestions': identifier not found
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(215,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(217,6): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(217,30): error C2065: 'questionCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(218,40): error C2065: 'rightAnswersCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(219,7): error C2065: 'rightAnswersCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(219,27): error C2065: 'questionCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(221,4): error C2065: 'rightAnswersCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(222,4): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(227,8): error C2653: 'Globals': is not a class or namespace name
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(227,17): error C2065: 'ModulesCompleted': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(228,5): error C2653: 'Globals': is not a class or namespace name
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(228,14): error C2065: 'ModulesCompleted': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(230,4): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(238,2): error C2065: 'label1': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(238,17): error C2065: 'questions': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(238,27): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(241,2): error C2065: 'radioAnswer1': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(241,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(241,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(242,2): error C2065: 'radioAnswer2': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(242,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(242,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(243,2): error C2065: 'radioAnswer3': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(243,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(243,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(244,2): error C2065: 'radioAnswer4': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(244,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(244,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(248,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(249,6): error C2065: 'radioAnswer1': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(252,11): error C2065: 'radioAnswer2': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(255,11): error C2065: 'radioAnswer3': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(258,11): error C2065: 'radioAnswer4': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(264,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(265,2): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(267,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(268,21): error C2065: 'correctAnswers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(268,36): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(269,3): error C2065: 'rightAnswersCount': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(272,2): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(275,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(276,2): error C2065: 'label1': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(276,17): error C2065: 'questions': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(276,27): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(277,2): error C2065: 'radioAnswer1': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(277,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(277,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(278,2): error C2065: 'radioAnswer2': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(278,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(278,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(279,2): error C2065: 'radioAnswer3': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(279,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(279,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(280,2): error C2065: 'radioAnswer4': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(280,23): error C2065: 'answers': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(280,31): error C2065: 'currentQuestionIndex': undeclared identifier
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(282,1): error C2059: syntax error: 'private'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(285,1): error C2059: syntax error: '}'
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(285,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Exam5.cpp')
+  

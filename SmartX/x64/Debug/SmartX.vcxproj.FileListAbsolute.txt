@@ -64,3 +64,5 @@ C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\De
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.FinalExam.resources
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson5.resources

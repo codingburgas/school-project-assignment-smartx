@@ -1,45 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam5.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Lesson5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\FinalExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\FinalExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Lesson3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Lesson3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Lesson4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Lesson4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "AbsoluteMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{47104DCD-B59E-482D-A489-5087EB0A1F44}|SmartX\\SmartX.vcxproj|solutionrelative:SmartX\\Exam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
   ],
@@ -50,25 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Exam2.cpp",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam2.cpp",
-              "RelativeDocumentMoniker": "SmartX\\Exam2.cpp",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam2.cpp",
-              "RelativeToolTip": "SmartX\\Exam2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-16T23:15:23.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -78,16 +77,68 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exam5.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.h",
+              "RelativeDocumentMoniker": "SmartX\\Exam5.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.h*",
+              "RelativeToolTip": "SmartX\\Exam5.h*",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAAO0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T18:09:58.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Exam5.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.cpp",
+              "RelativeDocumentMoniker": "SmartX\\Exam5.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam5.cpp",
+              "RelativeToolTip": "SmartX\\Exam5.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T18:08:21.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lesson5.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson5.cpp",
+              "RelativeDocumentMoniker": "SmartX\\Lesson5.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson5.cpp",
+              "RelativeToolTip": "SmartX\\Lesson5.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T18:07:15.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinalExam.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\FinalExam.cpp",
+              "RelativeDocumentMoniker": "SmartX\\FinalExam.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\FinalExam.cpp",
+              "RelativeToolTip": "SmartX\\FinalExam.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T18:07:12.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Exam4.h",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam4.h",
               "RelativeDocumentMoniker": "SmartX\\Exam4.h",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam4.h",
               "RelativeToolTip": "SmartX\\Exam4.h",
               "ViewState": "AQIAABMAAAAAAAAAAAAAAEIAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -96,48 +147,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Exam2.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam2.cpp",
+              "RelativeDocumentMoniker": "SmartX\\Exam2.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam2.cpp",
+              "RelativeToolTip": "SmartX\\Exam2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-16T23:15:23.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Exam4.h [Design]",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam4.h",
               "RelativeDocumentMoniker": "SmartX\\Exam4.h",
               "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h [Design]",
-              "RelativeToolTip": "SmartX\\Exam4.h [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam4.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-16T23:06:44.034Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-16T23:06:44.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\MainForm.h",
+              "RelativeDocumentMoniker": "SmartX\\MainForm.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\MainForm.h",
+              "RelativeToolTip": "SmartX\\MainForm.h",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwLsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-16T23:04:50.775Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainForm.h",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h",
-              "RelativeDocumentMoniker": "SmartX\\MainForm.h",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h",
-              "RelativeToolTip": "SmartX\\MainForm.h",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAuwLsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-16T23:04:50.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainForm.h [Design]",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\MainForm.h",
               "RelativeDocumentMoniker": "SmartX\\MainForm.h",
               "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h [Design]",
-              "RelativeToolTip": "SmartX\\MainForm.h [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\MainForm.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-16T23:04:45.276Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-16T23:04:45.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Lesson3.h",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Lesson3.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson3.h",
               "RelativeDocumentMoniker": "SmartX\\Lesson3.h",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Lesson3.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson3.h",
               "RelativeToolTip": "SmartX\\Lesson3.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAJsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -145,9 +205,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Lesson4.h [Design]",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Lesson4.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson4.h",
               "RelativeDocumentMoniker": "SmartX\\Lesson4.h",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson4.h [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\HP\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\SmartX\\school-project-assignment-smartx\\SmartX\\Lesson4.h [Design]",
@@ -156,11 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Exam3.h",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam3.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam3.h",
               "RelativeDocumentMoniker": "SmartX\\Exam3.h",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam3.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam3.h",
               "RelativeToolTip": "SmartX\\Exam3.h",
               "ViewState": "AQIAAAEBAAAAAAAAAAAiwBgBAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -168,11 +228,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Exam.h",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h",
               "RelativeDocumentMoniker": "SmartX\\Exam.h",
-              "ToolTip": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h",
               "RelativeToolTip": "SmartX\\Exam.h",
               "ViewState": "AQIAACcAAAAAAAAAAAAAAEIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -180,9 +240,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Exam.h [Design]",
-              "DocumentMoniker": "C:\\Users\\Badalov\\OneDrive - \u041F\u0413\u041A\u041F\u0418 - \u0411\u0443\u0440\u0433\u0430\u0441\\Documents\\school-project-assignment-smartx\\SmartX\\Exam.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h",
               "RelativeDocumentMoniker": "SmartX\\Exam.h",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\HP\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\SmartX\\school-project-assignment-smartx\\SmartX\\Exam.h [Design]",
