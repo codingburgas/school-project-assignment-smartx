@@ -108,6 +108,7 @@ namespace SmartX {
 			this->groupBox2->TabIndex = 9;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &Lesson5::groupBox2_Enter);
 			// 
 			// pictureBox1
 			// 
@@ -241,6 +242,7 @@ namespace SmartX {
 			this->Controls->Add(this->groupBox2);
 			this->Name = L"Lesson5";
 			this->Text = L"Lesson5";
+			this->Load += gcnew System::EventHandler(this, &Lesson5::Lesson5_Load);
 			this->groupBox2->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
@@ -252,6 +254,10 @@ namespace SmartX {
 	private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 private: System::Void richTextBox7_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void Lesson5_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

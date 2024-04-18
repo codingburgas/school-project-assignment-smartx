@@ -51,7 +51,7 @@
     <ClCompile Include="Lesson5.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Exam52.cpp">
+    <ClCompile Include="FinalExam.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,7 +89,7 @@
     <ClInclude Include="Lesson5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exam52.h">
+    <ClInclude Include="FinalExam.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

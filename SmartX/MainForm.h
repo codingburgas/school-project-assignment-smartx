@@ -4,6 +4,8 @@
 #include "Lesson3.h"
 #include "Lesson4.h"
 #include "Globals.h"
+#include "Lesson5.h"
+
 namespace SmartX {
 
 	using namespace System;

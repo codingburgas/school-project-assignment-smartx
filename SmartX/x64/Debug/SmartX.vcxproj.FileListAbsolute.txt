@@ -56,7 +56,6 @@ C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\De
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
-C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam52.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.HTMLCssTheory.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam2.resources
 C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
