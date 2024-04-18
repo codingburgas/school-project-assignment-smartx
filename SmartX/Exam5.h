@@ -48,9 +48,9 @@ namespace SmartX {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
-	// Static array of questions
+		// Static array of questions
 		static array<System::String^>^ questions = gcnew array<System::String^>{
 			"What is the primary purpose of a function in C++?",
 				"How are parameters passed into a function in C++?",
@@ -209,57 +209,57 @@ namespace SmartX {
 		}
 #pragma endregion
 	};
-	private: System::Void Exam4_Load(System::Object^ sender, System::EventArgs^ e) {
-		loadQuestions();
-	}
-			private: System::Void loadQuestions() {
-				// Check last question
-				if (currentQuestionIndex == questionCount) {
-					MessageBox::Show("Right answers: " + rightAnswersCount);
-					if (rightAnswersCount < questionCount) {
-						MessageBox::Show("You do not have enough points to proceed.");
-						rightAnswersCount = 0;
-						currentQuestionIndex = 0;
-					}
-					else {
-						MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
-						// TODO Show main form!!!
-						if (Globals::ModulesCompleted == 0) {
-							Globals::ModulesCompleted = 4;
-						}
-						this->Hide();
-						//Exam5^ nextForm = gcnew Exam5();
-						//nextForm->Show();
-						return;
-					}
-				}
-
-				// Set the question
-				label1->Text = questions[currentQuestionIndex];
-
-				// Set the answer choices
-				radioAnswer1->Text = answers[currentQuestionIndex][0];
-				radioAnswer2->Text = answers[currentQuestionIndex][1];
-				radioAnswer3->Text = answers[currentQuestionIndex][2];
-				radioAnswer4->Text = answers[currentQuestionIndex][3];
-
+private: System::Void Exam4_Load(System::Object^ sender, System::EventArgs^ e) {
+	loadQuestions();
+}
+private: System::Void loadQuestions() {
+	// Check last question
+	if (currentQuestionIndex == questionCount) {
+		MessageBox::Show("Right answers: " + rightAnswersCount);
+		if (rightAnswersCount < questionCount) {
+			MessageBox::Show("You do not have enough points to proceed.");
+			rightAnswersCount = 0;
+			currentQuestionIndex = 0;
+		}
+		else {
+			MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
+			// TODO Show main form!!!
+			if (Globals::ModulesCompleted == 0) {
+				Globals::ModulesCompleted = 4;
 			}
-
-	private: System::Int32 getAnswer() {
-		if (radioAnswer1->Checked) {
-			return 0;
+			this->Hide();
+			//Exam5^ nextForm = gcnew Exam5();
+			//nextForm->Show();
+			return;
 		}
-		else if (radioAnswer2->Checked) {
-			return 1;
-		}
-		else if (radioAnswer3->Checked) {
-			return 2;
-		}
-		else if (radioAnswer4->Checked) {
-			return 3;
-		}
-		return -1;
 	}
+
+	// Set the question
+	label1->Text = questions[currentQuestionIndex];
+
+	// Set the answer choices
+	radioAnswer1->Text = answers[currentQuestionIndex][0];
+	radioAnswer2->Text = answers[currentQuestionIndex][1];
+	radioAnswer3->Text = answers[currentQuestionIndex][2];
+	radioAnswer4->Text = answers[currentQuestionIndex][3];
+
+}
+
+private: System::Int32 getAnswer() {
+	if (radioAnswer1->Checked) {
+		return 0;
+	}
+	else if (radioAnswer2->Checked) {
+		return 1;
+	}
+	else if (radioAnswer3->Checked) {
+		return 2;
+	}
+	else if (radioAnswer4->Checked) {
+		return 3;
+	}
+	return -1;
+}
 
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
@@ -272,13 +272,13 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 	currentQuestionIndex++;
 	loadQuestions();
 }
-	   private: void LoadCurrentQuestion() {
-		   label1->Text = questions[currentQuestionIndex];
-		   radioAnswer1->Text = answers[currentQuestionIndex][0];
-		   radioAnswer2->Text = answers[currentQuestionIndex][1];
-		   radioAnswer3->Text = answers[currentQuestionIndex][2];
-		   radioAnswer4->Text = answers[currentQuestionIndex][3];
-	   }
+private: void LoadCurrentQuestion() {
+	label1->Text = questions[currentQuestionIndex];
+	radioAnswer1->Text = answers[currentQuestionIndex][0];
+	radioAnswer2->Text = answers[currentQuestionIndex][1];
+	radioAnswer3->Text = answers[currentQuestionIndex][2];
+	radioAnswer4->Text = answers[currentQuestionIndex][3];
+}
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
