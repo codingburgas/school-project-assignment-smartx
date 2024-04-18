@@ -49,3 +49,5 @@ C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
+C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources

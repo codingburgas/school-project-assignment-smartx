@@ -1,5 +1,6 @@
 #pragma once
-
+#include "Globals.h"
+#include "Exam4.h"
 namespace SmartX {
 
 	using namespace System;
@@ -231,8 +232,12 @@ namespace SmartX {
 					else {
 						MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
 						// TODO Show main form!!!
-
-						this->Close();
+						if (Globals::ModulesCompleted == 0) {
+							Globals::ModulesCompleted = 3;
+						}
+						this->Hide();
+						Exam4^ nextForm = gcnew Exam4();
+						nextForm->Show();
 						return;
 					}
 				}

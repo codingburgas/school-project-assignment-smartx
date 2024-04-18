@@ -3,7 +3,7 @@
 #include "HTMLCssTheory.h"
 #include "Lesson3.h"
 #include "Lesson4.h"
-
+#include "Globals.h"
 namespace SmartX {
 
 	using namespace System;
@@ -25,8 +25,27 @@ namespace SmartX {
 			//
 			//TODO: Add the constructor code here
 			//
+			Globals::ModulesCompleted = 0;
+			refreshButtons();
 		}
-
+		void refreshButtons() {
+			button2->Enabled = false;
+			button3->Enabled = false;
+			button4->Enabled = false;
+			button5->Enabled = false;
+			if (Globals::ModulesCompleted > 0) {
+				button2->Enabled = true;
+			}
+			if (Globals::ModulesCompleted > 1) {
+				button3->Enabled = true;
+			}
+			if (Globals::ModulesCompleted > 2) {
+				button3->Enabled = true;
+			}
+			if (Globals::ModulesCompleted > 3) {
+				button4->Enabled = true;
+			}
+		}
 	protected:
 		/// <summary>
 		/// Clean up any resources being used.

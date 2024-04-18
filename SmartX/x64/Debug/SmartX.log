@@ -8,7 +8,6 @@
   Main.cpp
   MainForm.cpp
   Register.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...
   Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  SmartX.vcxproj -> C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\x64\Debug\SmartX.exe
+  SmartX.vcxproj -> C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\x64\Debug\SmartX.exe

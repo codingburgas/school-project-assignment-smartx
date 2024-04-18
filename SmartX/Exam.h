@@ -1,5 +1,6 @@
 #pragma once
-
+#include "Globals.h"
+#include "HTMLCssTheory.h"
 namespace SmartX {
 
 	using namespace System;
@@ -233,8 +234,17 @@ namespace SmartX {
 			else {
 				MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
 				// TODO Show main form!!!
+				if (Globals::ModulesCompleted == 0) {
+					Globals::ModulesCompleted = 1;
+				}
 
-				this->Close();
+				//Globals::mainForm->refreshButtons();
+				//Globals::mainForm->refreshButtons();
+
+
+				this->Hide();
+				HTMLCssTheory^ nextForm = gcnew HTMLCssTheory();
+				nextForm->Show();
 				return;
 			}
 		}
