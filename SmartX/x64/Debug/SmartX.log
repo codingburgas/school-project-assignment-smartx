@@ -1,13 +1,15 @@
 ﻿  Exam.cpp
+  Exam2.cpp
   Exam3.cpp
   Exam4.cpp
+  Exam52.cpp
   HTMLCssTheory.cpp
-  Exam2.cpp
   Lesson3.cpp
   Lesson4.cpp
+  Lesson5.cpp
   Main.cpp
   MainForm.cpp
   Register.cpp
   Generating Code...
   Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  SmartX.vcxproj -> C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\x64\Debug\SmartX.exe
+  SmartX.vcxproj -> C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\x64\Debug\SmartX.exe

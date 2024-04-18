@@ -95,18 +95,19 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(257, 79);
+			this->pictureBox1->Location = System::Drawing::Point(503, 75);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(317, 207);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 17;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Exam4::pictureBox1_Click);
 			// 
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->button1->Location = System::Drawing::Point(346, 292);
+			this->button1->Location = System::Drawing::Point(470, 294);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 16;
@@ -117,7 +118,7 @@ namespace SmartX {
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(44, 291);
+			this->button2->Location = System::Drawing::Point(226, 293);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 15;
@@ -184,7 +185,7 @@ namespace SmartX {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(731, 392);
+			this->ClientSize = System::Drawing::Size(832, 392);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->button2);
@@ -271,6 +272,8 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 		   radioAnswer2->Text = answers[currentQuestionIndex][1];
 		   radioAnswer3->Text = answers[currentQuestionIndex][2];
 		   radioAnswer4->Text = answers[currentQuestionIndex][3];
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

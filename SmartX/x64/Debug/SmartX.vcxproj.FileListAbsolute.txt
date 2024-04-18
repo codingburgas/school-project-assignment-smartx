@@ -51,3 +51,17 @@ C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
 C:\Users\Lenovo\Documents\smartx\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.AssemblyReference.cache
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam52.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.HTMLCssTheory.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam2.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson5.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
+C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache

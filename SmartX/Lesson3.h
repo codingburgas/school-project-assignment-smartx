@@ -38,9 +38,17 @@ namespace SmartX {
 	private: System::Windows::Forms::GroupBox^ groupBox2;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::RichTextBox^ richTextBox2;
-	private: System::Windows::Forms::GroupBox^ groupBox1;
-	private: System::Windows::Forms::RichTextBox^ richTextBox1;
+
+
 	private: System::Windows::Forms::Button^ buttonTest;
+	private: System::Windows::Forms::GroupBox^ groupBox3;
+
+	private: System::Windows::Forms::RichTextBox^ richTextBox6;
+	private: System::Windows::Forms::RichTextBox^ richTextBox5;
+	private: System::Windows::Forms::RichTextBox^ richTextBox4;
+	private: System::Windows::Forms::RichTextBox^ richTextBox3;
+	private: System::Windows::Forms::RichTextBox^ richTextBox8;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
 
 	private:
 		/// <summary>
@@ -59,16 +67,23 @@ namespace SmartX {
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
-			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->buttonTest = (gcnew System::Windows::Forms::Button());
+			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->richTextBox6 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox5 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox4 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox3 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox8 = (gcnew System::Windows::Forms::RichTextBox());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
-			this->groupBox1->SuspendLayout();
+			this->groupBox3->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->buttonTest);
 			this->groupBox2->Controls->Add(this->pictureBox1);
 			this->groupBox2->Controls->Add(this->richTextBox2);
 			this->groupBox2->Location = System::Drawing::Point(596, 27);
@@ -83,10 +98,10 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(23, 183);
+			this->pictureBox1->Location = System::Drawing::Point(23, 185);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(506, 298);
+			this->pictureBox1->Size = System::Drawing::Size(364, 298);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -105,35 +120,11 @@ namespace SmartX {
 				L"me < 18) {\n    cout << \"Good day.\";\n  } else {\n    cout << \"Good evening.\";\n  }\n"
 				L"  return 0;\n\n}";
 			// 
-			// groupBox1
-			// 
-			this->groupBox1->Controls->Add(this->richTextBox1);
-			this->groupBox1->Controls->Add(this->buttonTest);
-			this->groupBox1->Location = System::Drawing::Point(8, 27);
-			this->groupBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox1->Size = System::Drawing::Size(583, 453);
-			this->groupBox1->TabIndex = 6;
-			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Кратка теория";
-			// 
-			// richTextBox1
-			// 
-			this->richTextBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox1->Location = System::Drawing::Point(20, 21);
-			this->richTextBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(546, 373);
-			this->richTextBox1->TabIndex = 2;
-			this->richTextBox1->Text = resources->GetString(L"richTextBox1.Text");
-			// 
 			// buttonTest
 			// 
 			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->buttonTest->Location = System::Drawing::Point(431, 398);
+			this->buttonTest->Location = System::Drawing::Point(386, 393);
 			this->buttonTest->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->buttonTest->Name = L"buttonTest";
 			this->buttonTest->Size = System::Drawing::Size(135, 47);
@@ -142,21 +133,107 @@ namespace SmartX {
 			this->buttonTest->UseVisualStyleBackColor = false;
 			this->buttonTest->Click += gcnew System::EventHandler(this, &Lesson3::buttonTest_Click);
 			// 
+			// groupBox3
+			// 
+			this->groupBox3->Controls->Add(this->richTextBox6);
+			this->groupBox3->Controls->Add(this->richTextBox5);
+			this->groupBox3->Controls->Add(this->richTextBox4);
+			this->groupBox3->Controls->Add(this->richTextBox3);
+			this->groupBox3->Controls->Add(this->richTextBox8);
+			this->groupBox3->Location = System::Drawing::Point(7, 115);
+			this->groupBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->groupBox3->Name = L"groupBox3";
+			this->groupBox3->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->groupBox3->Size = System::Drawing::Size(583, 420);
+			this->groupBox3->TabIndex = 14;
+			this->groupBox3->TabStop = false;
+			this->groupBox3->Text = L"Кратка теория";
+			// 
+			// richTextBox6
+			// 
+			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox6->Location = System::Drawing::Point(15, 267);
+			this->richTextBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox6->Name = L"richTextBox6";
+			this->richTextBox6->Size = System::Drawing::Size(546, 62);
+			this->richTextBox6->TabIndex = 6;
+			this->richTextBox6->Text = L"Use switch to specify many alternative blocks of code to be executed";
+			// 
+			// richTextBox5
+			// 
+			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox5->Location = System::Drawing::Point(15, 201);
+			this->richTextBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox5->Name = L"richTextBox5";
+			this->richTextBox5->Size = System::Drawing::Size(546, 62);
+			this->richTextBox5->TabIndex = 5;
+			this->richTextBox5->Text = L"Use else if to specify a new condition to test, if the first condition is false";
+			// 
+			// richTextBox4
+			// 
+			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox4->Location = System::Drawing::Point(15, 135);
+			this->richTextBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox4->Name = L"richTextBox4";
+			this->richTextBox4->Size = System::Drawing::Size(546, 62);
+			this->richTextBox4->TabIndex = 4;
+			this->richTextBox4->Text = L"Use else to specify a block of code to be executed, if the same condition is fals"
+				L"e";
+			// 
+			// richTextBox3
+			// 
+			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox3->Location = System::Drawing::Point(15, 69);
+			this->richTextBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox3->Name = L"richTextBox3";
+			this->richTextBox3->Size = System::Drawing::Size(546, 62);
+			this->richTextBox3->TabIndex = 3;
+			this->richTextBox3->Text = L"Use if to specify a block of code to be executed, if a specified condition is tru"
+				L"e";
+			// 
+			// richTextBox8
+			// 
+			this->richTextBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox8->Location = System::Drawing::Point(15, 19);
+			this->richTextBox8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox8->Name = L"richTextBox8";
+			this->richTextBox8->Size = System::Drawing::Size(546, 46);
+			this->richTextBox8->TabIndex = 2;
+			this->richTextBox8->Text = L"C++ has the following conditional statements:\n";
+			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
+			this->pictureBox2->Location = System::Drawing::Point(54, 7);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(496, 104);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox2->TabIndex = 15;
+			this->pictureBox2->TabStop = false;
+			// 
 			// Lesson3
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
 			this->ClientSize = System::Drawing::Size(1137, 546);
-			this->Controls->Add(this->groupBox1);
+			this->Controls->Add(this->groupBox3);
+			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->groupBox2);
-			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Lesson3";
 			this->Text = L"Lesson3";
 			this->Load += gcnew System::EventHandler(this, &Lesson3::Lesson3_Load);
 			this->groupBox2->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
-			this->groupBox1->ResumeLayout(false);
+			this->groupBox3->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -172,6 +249,8 @@ private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs
 	exam3Form->Show();
 }
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void richTextBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

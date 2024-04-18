@@ -1,6 +1,7 @@
 #pragma once
 #include "Globals.h"
 #include "Exam4.h"
+#include "Lesson4.h"
 namespace SmartX {
 
 	using namespace System;
@@ -102,19 +103,20 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(333, 66);
+			this->pictureBox1->Location = System::Drawing::Point(519, 71);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(317, 207);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 17;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Exam3::pictureBox1_Click);
 			// 
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->button1->Location = System::Drawing::Point(344, 289);
+			this->button1->Location = System::Drawing::Point(486, 291);
 			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
@@ -126,7 +128,7 @@ namespace SmartX {
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(43, 288);
+			this->button2->Location = System::Drawing::Point(251, 291);
 			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
@@ -198,7 +200,7 @@ namespace SmartX {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(777, 359);
+			this->ClientSize = System::Drawing::Size(848, 385);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->button2);
@@ -236,7 +238,7 @@ namespace SmartX {
 							Globals::ModulesCompleted = 3;
 						}
 						this->Hide();
-						Exam4^ nextForm = gcnew Exam4();
+						Lesson4^ nextForm = gcnew Lesson4();
 						nextForm->Show();
 						return;
 					}
@@ -286,6 +288,8 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	   }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

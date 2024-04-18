@@ -1,6 +1,7 @@
 #pragma once
 #include "Globals.h"
 #include"Exam3.h"
+#include "Lesson3.h"
 namespace SmartX {
 
 	using namespace System;
@@ -103,7 +104,7 @@ namespace SmartX {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(21, 25);
+			this->label1->Location = System::Drawing::Point(38, 26);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(53, 20);
 			this->label1->TabIndex = 1;
@@ -112,7 +113,7 @@ namespace SmartX {
 			// radioAnswer1
 			// 
 			this->radioAnswer1->AutoSize = true;
-			this->radioAnswer1->Location = System::Drawing::Point(25, 96);
+			this->radioAnswer1->Location = System::Drawing::Point(42, 97);
 			this->radioAnswer1->Name = L"radioAnswer1";
 			this->radioAnswer1->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer1->TabIndex = 2;
@@ -123,7 +124,7 @@ namespace SmartX {
 			// radioAnswer2
 			// 
 			this->radioAnswer2->AutoSize = true;
-			this->radioAnswer2->Location = System::Drawing::Point(25, 142);
+			this->radioAnswer2->Location = System::Drawing::Point(42, 143);
 			this->radioAnswer2->Name = L"radioAnswer2";
 			this->radioAnswer2->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer2->TabIndex = 3;
@@ -134,7 +135,7 @@ namespace SmartX {
 			// radioAnswer3
 			// 
 			this->radioAnswer3->AutoSize = true;
-			this->radioAnswer3->Location = System::Drawing::Point(25, 186);
+			this->radioAnswer3->Location = System::Drawing::Point(42, 187);
 			this->radioAnswer3->Name = L"radioAnswer3";
 			this->radioAnswer3->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer3->TabIndex = 4;
@@ -145,7 +146,7 @@ namespace SmartX {
 			// radioAnswer4
 			// 
 			this->radioAnswer4->AutoSize = true;
-			this->radioAnswer4->Location = System::Drawing::Point(25, 229);
+			this->radioAnswer4->Location = System::Drawing::Point(42, 230);
 			this->radioAnswer4->Name = L"radioAnswer4";
 			this->radioAnswer4->Size = System::Drawing::Size(103, 20);
 			this->radioAnswer4->TabIndex = 5;
@@ -157,7 +158,7 @@ namespace SmartX {
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->button1->Location = System::Drawing::Point(327, 289);
+			this->button1->Location = System::Drawing::Point(458, 292);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 8;
@@ -168,7 +169,7 @@ namespace SmartX {
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(25, 288);
+			this->button2->Location = System::Drawing::Point(215, 291);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 7;
@@ -179,7 +180,7 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(238, 76);
+			this->pictureBox1->Location = System::Drawing::Point(472, 62);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(317, 207);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
@@ -191,7 +192,7 @@ namespace SmartX {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(729, 376);
+			this->ClientSize = System::Drawing::Size(801, 376);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->button2);
@@ -228,7 +229,7 @@ namespace SmartX {
 						   Globals::ModulesCompleted = 2;
 					   }
 					   this->Hide();
-					   Exam3^ nextForm = gcnew Exam3();
+					   Lesson3^ nextForm = gcnew Lesson3();
 					   nextForm->Show();
 					   return;
 				   }

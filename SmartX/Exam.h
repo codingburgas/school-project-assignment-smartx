@@ -167,7 +167,7 @@ namespace SmartX {
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->button1->Location = System::Drawing::Point(299, 313);
+			this->button1->Location = System::Drawing::Point(471, 311);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 5;
@@ -178,7 +178,7 @@ namespace SmartX {
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
-			this->button2->Location = System::Drawing::Point(15, 310);
+			this->button2->Location = System::Drawing::Point(200, 311);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 6;
@@ -189,7 +189,7 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(248, 100);
+			this->pictureBox1->Location = System::Drawing::Point(457, 85);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(317, 207);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
@@ -200,7 +200,7 @@ namespace SmartX {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(723, 386);
+			this->ClientSize = System::Drawing::Size(795, 386);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
