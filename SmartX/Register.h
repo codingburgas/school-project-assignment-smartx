@@ -260,6 +260,8 @@ namespace SmartX {
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		// Create an instance of the Exam form
+
+		this->Hide();
 		Exam^ examForm = gcnew Exam();
 
 		// Show the Exam form

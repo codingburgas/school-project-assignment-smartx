@@ -255,6 +255,7 @@ namespace SmartX {
 	}
 	private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs^ e) {
 		// Create an instance of the Exam form
+		this->Hide();
 		Exam4^ exam4Form = gcnew Exam4();
 
 		// Show the Exam form

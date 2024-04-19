@@ -1,6 +1,7 @@
   SmartX.Exam.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam3.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam4.resources - Embedded, ContainedInManifestFile, 
+  SmartX.FinalExam.resources - Embedded, ContainedInManifestFile, 
   SmartX.HTMLCssTheory.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam2.resources - Embedded, ContainedInManifestFile, 
   SmartX.Lesson3.resources - Embedded, ContainedInManifestFile, 
@@ -42,6 +43,9 @@ Class SmartX.HTMLCssTheory: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Exam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SmartX.FinalExam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Lesson5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

@@ -266,6 +266,8 @@ private: System::Void richTextBox1_TextChanged(System::Object^ sender, System::E
 }
 private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs^ e) {
 	// Create an instance of the Exam form
+
+	this->Hide();
 	Exam2^ exam2Form = gcnew Exam2();
 
 	// Show the Exam form

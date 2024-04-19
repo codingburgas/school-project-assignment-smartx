@@ -65,7 +65,7 @@ namespace SmartX {
 		};
 
 		// Static array of indices for the correct answer of each question
-		static array<int>^ correctAnswers = gcnew array<int>{2, 3, 2, 1, 2};
+		static array<int>^ correctAnswers = gcnew array<int>{2, 3, 1, 1, 2};
 
 		// Fields for tracking the current question and number of right answers
 		static int currentQuestionIndex = 0;

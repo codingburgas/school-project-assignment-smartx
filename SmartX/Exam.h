@@ -1,6 +1,7 @@
 #pragma once
-#include "Globals.h"
+
 #include "HTMLCssTheory.h"
+
 namespace SmartX {
 
 	using namespace System;
@@ -238,9 +239,8 @@ namespace SmartX {
 					Globals::ModulesCompleted = 1;
 				}
 
+			
 				//Globals::mainForm->refreshButtons();
-				//Globals::mainForm->refreshButtons();
-
 
 				this->Hide();
 				HTMLCssTheory^ nextForm = gcnew HTMLCssTheory();

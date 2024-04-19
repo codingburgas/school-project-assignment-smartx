@@ -1,2 +1,17 @@
-﻿  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+﻿  Exam.cpp
+  Exam3.cpp
+  Exam4.cpp
+  FinalExam.cpp
+  Globals.cpp
+  HTMLCssTheory.cpp
+  Exam2.cpp
+  Lesson3.cpp
+  Lesson4.cpp
+  Lesson5.cpp
+  Main.cpp
+  MainForm.cpp
+  Register.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   SmartX.vcxproj -> C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\x64\Debug\SmartX.exe
