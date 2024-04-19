@@ -1,6 +1,8 @@
 <h1 align="center">SmartX</h1>
 <p align = "center">
-  
+  <a href=" rel="noopener">
+  <img src="Images/SmartX_logo.png" alt="Logo" width=25% height=25%>
+  </a>
 </p>
 
 <br>
