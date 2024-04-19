@@ -30,14 +30,18 @@ We're a SmartX. The purpose of our application is to perform the programming tas
   </p> 
   
 ## 💼 Documents
++ [Presentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/Presentation.pptx)
++ [Documentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/Documentation.docx)
++ [QA Documentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/QA_documentation.ods)
+
 
 ## 👨🏻‍💻 Team Members
 | **Name** | **Role** | **Grade** |
 | :---:   | :---: | :---: |
 | Veselina Varadeva| Scrum Trainer | 🟩 9V |
 | Bilyana Badalova |  Back-end developer | 🟥 10B |
+| Stela Georgieva |  Back-end developer  | 🟥 10B |
 | Mariela Dimova | Back-end developer  | 🟦 10G |
 | Teodora Skulieva |  Back-end developer  | 🟩 9V  |
-| Stela Georgieva |  Back-end developer  | 🟥 10B |
 | Gabriela Encheva |  QA developer  | 🟩 9V  |
 
