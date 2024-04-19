@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Exam.cpp
   Exam3.cpp
   Exam4.cpp
@@ -15,3 +16,12 @@
   Generating Code...
   Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   SmartX.vcxproj -> C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\x64\Debug\SmartX.exe
+=======
+﻿  Exam5.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(78,47): error C2086: 'System::Windows::Forms::PictureBox ^SmartX::Exam5::pictureBox1': redefinition
+  (compiling source file 'Exam5.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(84,38): error C2086: 'System::ComponentModel::Container ^SmartX::Exam5::components': redefinition
+  (compiling source file 'Exam5.cpp')
+  
+>>>>>>> f820bb087c1e047fa96e728f78421644a0c8281b

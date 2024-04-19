@@ -1,6 +1,7 @@
 #pragma once
-
-namespace SmartX {
+#include "Globals.h"
+namespace SmartX 
+{
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -208,79 +209,79 @@ namespace SmartX {
 
 		}
 #pragma endregion
-	};
-private: System::Void Exam4_Load(System::Object^ sender, System::EventArgs^ e) {
-	loadQuestions();
-}
-private: System::Void loadQuestions() {
-	// Check last question
-	if (currentQuestionIndex == questionCount) {
-		MessageBox::Show("Right answers: " + rightAnswersCount);
-		if (rightAnswersCount < questionCount) {
-			MessageBox::Show("You do not have enough points to proceed.");
-			rightAnswersCount = 0;
-			currentQuestionIndex = 0;
-		}
-		else {
-			MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
-			// TODO Show main form!!!
-			if (Globals::ModulesCompleted == 0) {
-				Globals::ModulesCompleted = 4;
+	private: System::Void Exam5_Load(System::Object^ sender, System::EventArgs^ e)
+	{
+		loadQuestions();
+	}
+	private: System::Void loadQuestions() {
+		// Check last question
+		if (currentQuestionIndex == questionCount) {
+			MessageBox::Show("Right answers: " + rightAnswersCount);
+			if (rightAnswersCount < questionCount) {
+				MessageBox::Show("You do not have enough points to proceed.");
+				rightAnswersCount = 0;
+				currentQuestionIndex = 0;
 			}
-			this->Hide();
-			//Exam5^ nextForm = gcnew Exam5();
-			//nextForm->Show();
-			return;
+			else {
+				MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
+				// TODO Show main form!!!
+				if (Globals::ModulesCompleted == 0) {
+					Globals::ModulesCompleted = 4;
+				}
+				this->Hide();
+				//Exam5^ nextForm = gcnew Exam5();
+				//nextForm->Show();
+				return;
+			}
 		}
+
+		// Set the question
+		label1->Text = questions[currentQuestionIndex];
+
+		// Set the answer choices
+		radioAnswer1->Text = answers[currentQuestionIndex][0];
+		radioAnswer2->Text = answers[currentQuestionIndex][1];
+		radioAnswer3->Text = answers[currentQuestionIndex][2];
+		radioAnswer4->Text = answers[currentQuestionIndex][3];
+
 	}
 
-	// Set the question
-	label1->Text = questions[currentQuestionIndex];
-
-	// Set the answer choices
-	radioAnswer1->Text = answers[currentQuestionIndex][0];
-	radioAnswer2->Text = answers[currentQuestionIndex][1];
-	radioAnswer3->Text = answers[currentQuestionIndex][2];
-	radioAnswer4->Text = answers[currentQuestionIndex][3];
-
-}
-
-private: System::Int32 getAnswer() {
-	if (radioAnswer1->Checked) {
-		return 0;
-	}
-	else if (radioAnswer2->Checked) {
-		return 1;
-	}
-	else if (radioAnswer3->Checked) {
-		return 2;
-	}
-	else if (radioAnswer4->Checked) {
-		return 3;
-	}
-	return -1;
-}
-
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->Close();
-}
-private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^ e) {
-	if (getAnswer() == correctAnswers[currentQuestionIndex]) {
-		rightAnswersCount++;
+	private: System::Int32 getAnswer() {
+		if (radioAnswer1->Checked) {
+			return 0;
+		}
+		else if (radioAnswer2->Checked) {
+			return 1;
+		}
+		else if (radioAnswer3->Checked) {
+			return 2;
+		}
+		else if (radioAnswer4->Checked) {
+			return 3;
+		}
+		return -1;
 	}
 
-	currentQuestionIndex++;
-	loadQuestions();
-}
-private: void LoadCurrentQuestion() {
-	label1->Text = questions[currentQuestionIndex];
-	radioAnswer1->Text = answers[currentQuestionIndex][0];
-	radioAnswer2->Text = answers[currentQuestionIndex][1];
-	radioAnswer3->Text = answers[currentQuestionIndex][2];
-	radioAnswer4->Text = answers[currentQuestionIndex][3];
-}
-private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
-}
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+	}
+	private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		if (getAnswer() == correctAnswers[currentQuestionIndex]) {
+			rightAnswersCount++;
+		}
+
+		currentQuestionIndex++;
+		loadQuestions();
+	}
+	private: void LoadCurrentQuestion() {
+		label1->Text = questions[currentQuestionIndex];
+		radioAnswer1->Text = answers[currentQuestionIndex][0];
+		radioAnswer2->Text = answers[currentQuestionIndex][1];
+		radioAnswer3->Text = answers[currentQuestionIndex][2];
+		radioAnswer4->Text = answers[currentQuestionIndex][3];
+	}
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
 };
 }
 
