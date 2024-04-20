@@ -122,7 +122,6 @@
     <ClCompile Include="Exam.cpp" />
     <ClCompile Include="Exam3.cpp" />
     <ClCompile Include="Exam4.cpp" />
-    <ClCompile Include="Exam5.cpp" />
     <ClCompile Include="FinalExam.cpp" />
     <ClCompile Include="Globals.cpp" />
     <ClCompile Include="HTMLCssTheory.cpp" />

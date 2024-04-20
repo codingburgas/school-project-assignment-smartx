@@ -1,27 +1,6 @@
-<<<<<<< HEAD
-﻿  Exam.cpp
-  Exam3.cpp
-  Exam4.cpp
-  FinalExam.cpp
-  Globals.cpp
-  HTMLCssTheory.cpp
-  Exam2.cpp
-  Lesson3.cpp
-  Lesson4.cpp
-  Lesson5.cpp
-  Main.cpp
-  MainForm.cpp
-  Register.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Generating Code...
-  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  SmartX.vcxproj -> C:\Users\Teodora\Desktop\progect3\school-project-assignment-smartx\x64\Debug\SmartX.exe
-=======
-﻿  Exam5.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(78,47): error C2086: 'System::Windows::Forms::PictureBox ^SmartX::Exam5::pictureBox1': redefinition
-  (compiling source file 'Exam5.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Exam5.h(84,38): error C2086: 'System::ComponentModel::Container ^SmartX::Exam5::components': redefinition
-  (compiling source file 'Exam5.cpp')
-  
->>>>>>> f820bb087c1e047fa96e728f78421644a0c8281b
+﻿  FinalExam.cpp
+C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\FinalExam.h(206,63): error C2039: 'Lesson5_Load': is not a member of 'SmartX::FinalExam'
+C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\FinalExam.h(17,19): message : see declaration of 'SmartX::FinalExam'
+C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\FinalExam.h(206,63): error C2065: 'Lesson5_Load': undeclared identifier
+C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\FinalExam.h(206,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\FinalExam.h(206,44): message : pointer to member function expected

@@ -48,9 +48,6 @@
     <ClCompile Include="Globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Exam5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Lesson5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
