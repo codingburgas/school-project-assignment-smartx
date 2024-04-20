@@ -242,7 +242,7 @@ namespace SmartX {
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
-			this->ClientSize = System::Drawing::Size(1180, 497);
+			this->ClientSize = System::Drawing::Size(1180, 551);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->pictureBox2);

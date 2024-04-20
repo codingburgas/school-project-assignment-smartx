@@ -65,9 +65,9 @@ namespace SmartX {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Lesson3::typeid));
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonTest = (gcnew System::Windows::Forms::Button());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
-			this->buttonTest = (gcnew System::Windows::Forms::Button());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
 			this->richTextBox6 = (gcnew System::Windows::Forms::RichTextBox());
 			this->richTextBox5 = (gcnew System::Windows::Forms::RichTextBox());
@@ -94,6 +94,20 @@ namespace SmartX {
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &Lesson3::groupBox2_Enter);
+			// 
+			// buttonTest
+			// 
+			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->buttonTest->Location = System::Drawing::Point(386, 393);
+			this->buttonTest->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->buttonTest->Name = L"buttonTest";
+			this->buttonTest->Size = System::Drawing::Size(135, 47);
+			this->buttonTest->TabIndex = 0;
+			this->buttonTest->Text = L"Към теста";
+			this->buttonTest->UseVisualStyleBackColor = false;
+			this->buttonTest->Click += gcnew System::EventHandler(this, &Lesson3::buttonTest_Click);
 			// 
 			// pictureBox1
 			// 
@@ -119,19 +133,6 @@ namespace SmartX {
 			this->richTextBox2->Text = L"#include <iostream>\nusing namespace std;\n\nint main() {\n\n  int time = 20;\n  if (ti"
 				L"me < 18) {\n    cout << \"Good day.\";\n  } else {\n    cout << \"Good evening.\";\n  }\n"
 				L"  return 0;\n\n}";
-			// 
-			// buttonTest
-			// 
-			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
-				static_cast<System::Int32>(static_cast<System::Byte>(255)));
-			this->buttonTest->Location = System::Drawing::Point(386, 393);
-			this->buttonTest->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->buttonTest->Name = L"buttonTest";
-			this->buttonTest->Size = System::Drawing::Size(135, 47);
-			this->buttonTest->TabIndex = 0;
-			this->buttonTest->Text = L"Към теста";
-			this->buttonTest->UseVisualStyleBackColor = false;
-			this->buttonTest->Click += gcnew System::EventHandler(this, &Lesson3::buttonTest_Click);
 			// 
 			// groupBox3
 			// 
@@ -252,6 +253,8 @@ private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void richTextBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

@@ -1,4 +1,5 @@
 #pragma once
+#include "Exam 5.h"
 
 namespace SmartX {
 
@@ -35,12 +36,14 @@ namespace SmartX {
 			}
 		}
 
-	protected:
+	
 
 	private: System::Windows::Forms::Button^ buttonTest;
 	private: System::Windows::Forms::GroupBox^ groupBox2;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::RichTextBox^ richTextBox2;
+
+
 	private: System::Windows::Forms::PictureBox^ pictureBox2;
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::Windows::Forms::RichTextBox^ richTextBox7;
@@ -49,7 +52,8 @@ namespace SmartX {
 	private: System::Windows::Forms::RichTextBox^ richTextBox4;
 	private: System::Windows::Forms::RichTextBox^ richTextBox3;
 	private: System::Windows::Forms::RichTextBox^ richTextBox1;
-
+	protected:
+	protected:
 	private:
 		/// <summary>
 		/// Required designer variable.
@@ -87,7 +91,6 @@ namespace SmartX {
 			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->buttonTest->Location = System::Drawing::Point(386, 421);
-			this->buttonTest->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->buttonTest->Name = L"buttonTest";
 			this->buttonTest->Size = System::Drawing::Size(135, 47);
 			this->buttonTest->TabIndex = 0;
@@ -101,9 +104,7 @@ namespace SmartX {
 			this->groupBox2->Controls->Add(this->buttonTest);
 			this->groupBox2->Controls->Add(this->richTextBox2);
 			this->groupBox2->Location = System::Drawing::Point(607, 11);
-			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Size = System::Drawing::Size(527, 516);
 			this->groupBox2->TabIndex = 9;
 			this->groupBox2->TabStop = false;
@@ -114,7 +115,6 @@ namespace SmartX {
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(14, 213);
-			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(366, 298);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
@@ -125,8 +125,7 @@ namespace SmartX {
 			// 
 			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Lucida Console", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox2->Location = System::Drawing::Point(23, 21);
-			this->richTextBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox2->Location = System::Drawing::Point(14, 30);
 			this->richTextBox2->Name = L"richTextBox2";
 			this->richTextBox2->Size = System::Drawing::Size(498, 164);
 			this->richTextBox2->TabIndex = 0;
@@ -150,7 +149,6 @@ namespace SmartX {
 			this->groupBox1->Controls->Add(this->richTextBox5);
 			this->groupBox1->Controls->Add(this->richTextBox4);
 			this->groupBox1->Controls->Add(this->richTextBox3);
-			this->groupBox1->Controls->Add(this->richTextBox1);
 			this->groupBox1->Location = System::Drawing::Point(12, 111);
 			this->groupBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox1->Name = L"groupBox1";
@@ -159,6 +157,7 @@ namespace SmartX {
 			this->groupBox1->TabIndex = 10;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Кратка теория";
+			this->groupBox1->Enter += gcnew System::EventHandler(this, &Lesson5::groupBox1_Enter);
 			// 
 			// richTextBox7
 			// 
@@ -171,7 +170,6 @@ namespace SmartX {
 			this->richTextBox7->TabIndex = 7;
 			this->richTextBox7->Text = L"To call a function, write the function\'s name followed by two parentheses () and "
 				L"a semicolon ;";
-			this->richTextBox7->TextChanged += gcnew System::EventHandler(this, &Lesson5::richTextBox7_TextChanged);
 			// 
 			// richTextBox6
 			// 
@@ -252,12 +250,20 @@ namespace SmartX {
 		}
 #pragma endregion
 	private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		Exam5^ exam5Form = gcnew Exam5();
+
+		// Show the Exam form
+		exam5Form->Show();
 	}
-private: System::Void richTextBox7_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+	
+ private: System::Void pictureBox1_Click(System::Object ^ sender, System::EventArgs ^ e) {
+}
+private: System::Void richTextBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void Lesson5_Load(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void groupBox1_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

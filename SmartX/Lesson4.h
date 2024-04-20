@@ -65,21 +65,21 @@ namespace SmartX {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Lesson4::typeid));
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->richTextBox7 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox6 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox5 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox4 = (gcnew System::Windows::Forms::RichTextBox());
+			this->richTextBox3 = (gcnew System::Windows::Forms::RichTextBox());
 			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->buttonTest = (gcnew System::Windows::Forms::Button());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox3 = (gcnew System::Windows::Forms::RichTextBox());
-			this->richTextBox4 = (gcnew System::Windows::Forms::RichTextBox());
-			this->richTextBox5 = (gcnew System::Windows::Forms::RichTextBox());
-			this->richTextBox6 = (gcnew System::Windows::Forms::RichTextBox());
-			this->richTextBox7 = (gcnew System::Windows::Forms::RichTextBox());
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox1
@@ -98,6 +98,65 @@ namespace SmartX {
 			this->groupBox1->TabIndex = 8;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Кратка теория";
+			// 
+			// richTextBox7
+			// 
+			this->richTextBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox7->Location = System::Drawing::Point(15, 349);
+			this->richTextBox7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox7->Name = L"richTextBox7";
+			this->richTextBox7->Size = System::Drawing::Size(546, 62);
+			this->richTextBox7->TabIndex = 7;
+			this->richTextBox7->Text = L"Variables with this structure anywhere in the program at any time.";
+			// 
+			// richTextBox6
+			// 
+			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox6->Location = System::Drawing::Point(15, 283);
+			this->richTextBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox6->Name = L"richTextBox6";
+			this->richTextBox6->Size = System::Drawing::Size(546, 62);
+			this->richTextBox6->TabIndex = 6;
+			this->richTextBox6->Text = L"By giving a name to the structure, you can treat it as a data type. This means th"
+				L"at you can create";
+			// 
+			// richTextBox5
+			// 
+			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox5->Location = System::Drawing::Point(15, 217);
+			this->richTextBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox5->Name = L"richTextBox5";
+			this->richTextBox5->Size = System::Drawing::Size(546, 62);
+			this->richTextBox5->TabIndex = 5;
+			this->richTextBox5->Text = L"To create a structure, use the struct keyword and declare each of its members ins"
+				L"ide curly braces.\n";
+			// 
+			// richTextBox4
+			// 
+			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox4->Location = System::Drawing::Point(15, 151);
+			this->richTextBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox4->Name = L"richTextBox4";
+			this->richTextBox4->Size = System::Drawing::Size(546, 62);
+			this->richTextBox4->TabIndex = 4;
+			this->richTextBox4->Text = L"Unlike an array, a structure can contain many different data types (int, string, "
+				L"bool, etc.).\n";
+			// 
+			// richTextBox3
+			// 
+			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->richTextBox3->Location = System::Drawing::Point(15, 85);
+			this->richTextBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->richTextBox3->Name = L"richTextBox3";
+			this->richTextBox3->Size = System::Drawing::Size(546, 62);
+			this->richTextBox3->TabIndex = 3;
+			this->richTextBox3->Text = L"Each variable in the structure is known as a member of the structure.";
+			this->richTextBox3->TextChanged += gcnew System::EventHandler(this, &Lesson4::richTextBox3_TextChanged);
 			// 
 			// richTextBox1
 			// 
@@ -137,6 +196,18 @@ namespace SmartX {
 			this->groupBox2->TabIndex = 7;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &Lesson4::groupBox2_Enter);
+			// 
+			// pictureBox3
+			// 
+			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
+			this->pictureBox3->Location = System::Drawing::Point(6, 204);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(361, 315);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox3->TabIndex = 9;
+			this->pictureBox3->TabStop = false;
 			// 
 			// richTextBox2
 			// 
@@ -160,76 +231,6 @@ namespace SmartX {
 			this->pictureBox2->TabIndex = 9;
 			this->pictureBox2->TabStop = false;
 			// 
-			// richTextBox3
-			// 
-			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox3->Location = System::Drawing::Point(15, 85);
-			this->richTextBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox3->Name = L"richTextBox3";
-			this->richTextBox3->Size = System::Drawing::Size(546, 62);
-			this->richTextBox3->TabIndex = 3;
-			this->richTextBox3->Text = L"Each variable in the structure is known as a member of the structure.";
-			this->richTextBox3->TextChanged += gcnew System::EventHandler(this, &Lesson4::richTextBox3_TextChanged);
-			// 
-			// richTextBox4
-			// 
-			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox4->Location = System::Drawing::Point(15, 151);
-			this->richTextBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox4->Name = L"richTextBox4";
-			this->richTextBox4->Size = System::Drawing::Size(546, 62);
-			this->richTextBox4->TabIndex = 4;
-			this->richTextBox4->Text = L"Unlike an array, a structure can contain many different data types (int, string, "
-				L"bool, etc.).\n";
-			// 
-			// richTextBox5
-			// 
-			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox5->Location = System::Drawing::Point(15, 217);
-			this->richTextBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox5->Name = L"richTextBox5";
-			this->richTextBox5->Size = System::Drawing::Size(546, 62);
-			this->richTextBox5->TabIndex = 5;
-			this->richTextBox5->Text = L"To create a structure, use the struct keyword and declare each of its members ins"
-				L"ide curly braces.\n";
-			// 
-			// richTextBox6
-			// 
-			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox6->Location = System::Drawing::Point(15, 283);
-			this->richTextBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox6->Name = L"richTextBox6";
-			this->richTextBox6->Size = System::Drawing::Size(546, 62);
-			this->richTextBox6->TabIndex = 6;
-			this->richTextBox6->Text = L"By giving a name to the structure, you can treat it as a data type. This means th"
-				L"at you can create";
-			// 
-			// richTextBox7
-			// 
-			this->richTextBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->richTextBox7->Location = System::Drawing::Point(15, 349);
-			this->richTextBox7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->richTextBox7->Name = L"richTextBox7";
-			this->richTextBox7->Size = System::Drawing::Size(546, 62);
-			this->richTextBox7->TabIndex = 7;
-			this->richTextBox7->Text = L"Variables with this structure anywhere in the program at any time.";
-			// 
-			// pictureBox3
-			// 
-			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(6, 204);
-			this->pictureBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(361, 315);
-			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->pictureBox3->TabIndex = 9;
-			this->pictureBox3->TabStop = false;
-			// 
 			// Lesson4
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -245,8 +246,8 @@ namespace SmartX {
 			this->Load += gcnew System::EventHandler(this, &Lesson4::Lesson4_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -264,6 +265,8 @@ namespace SmartX {
  private: System::Void pictureBox1_Click(System::Object ^ sender, System::EventArgs ^ e) {
 }
 private: System::Void richTextBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

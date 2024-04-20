@@ -116,6 +116,7 @@ namespace SmartX {
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &HTMLCssTheory::groupBox2_Enter);
 			// 
 			// pictureBox1
 			// 
@@ -276,6 +277,8 @@ private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs
 private: System::Void richTextBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void richTextBox6_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

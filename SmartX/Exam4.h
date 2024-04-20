@@ -1,6 +1,7 @@
 #pragma once
 #include "Globals.h"
-//#include "Exam5.h"
+#include "Lesson5.h"
+#include "Exam 5.h"
 namespace SmartX {
 
 	using namespace System;
