@@ -1,5 +1,6 @@
 #include "Login.h"
 #include "MainForm.h"
+#include "Registration.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -8,10 +9,34 @@ void loginForm(array<String^>^ args)
 {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	SmartX::Login loginForm;
+	
+	Users^ User = nullptr;
+	while (true)
+	{
+		SmartX::Login loginForm;
+		loginForm.ShowDialog();
 
-	loginForm.ShowDialog();
-	Users^ User = loginForm.user;
+		if (loginForm.swichToRegistration)
+		{
+			SmartX::Registration registrationForm;
+			registrationForm.ShowDialog();
+
+			if (registrationForm.swichToLogin)
+			{
+				continue;
+			}
+			else
+			{
+				User = registrationForm.user;
+				break;
+			}
+		}
+		else
+		{
+			User = loginForm.user;
+			break;
+		}
+	}
 
 	if (User != nullptr)
 	{

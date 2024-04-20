@@ -44,6 +44,7 @@ namespace SmartX {
 	private: System::Windows::Forms::TextBox^ textBox1;
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::LinkLabel^ linkLabel1;
 
 
 	protected:
@@ -70,6 +71,7 @@ namespace SmartX {
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -152,12 +154,24 @@ namespace SmartX {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Login::button1_Click_1);
 			// 
+			// linkLabel1
+			// 
+			this->linkLabel1->AutoSize = true;
+			this->linkLabel1->Location = System::Drawing::Point(599, 429);
+			this->linkLabel1->Name = L"linkLabel1";
+			this->linkLabel1->Size = System::Drawing::Size(79, 16);
+			this->linkLabel1->TabIndex = 12;
+			this->linkLabel1->TabStop = true;
+			this->linkLabel1->Text = L"Registration";
+			this->linkLabel1->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &Login::linkLabel1_LinkClicked);
+			// 
 			// Login
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
 			this->ClientSize = System::Drawing::Size(1067, 578);
+			this->Controls->Add(this->linkLabel1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox2);
 			this->Controls->Add(this->textBox1);
@@ -221,6 +235,12 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 	{
 		MessageBox::Show("Failed to connect database");
 	}
+}
+	   public: bool swichToRegistration = false;
+private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
+{
+	this->swichToRegistration = true;
+		this->Close();
 }
 };
 }

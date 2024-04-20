@@ -57,6 +57,9 @@
     <ClCompile Include="Login.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Registration.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Register.h">
@@ -99,6 +102,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Users.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
