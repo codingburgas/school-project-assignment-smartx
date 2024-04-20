@@ -1,302 +1,66 @@
 ﻿  Exam.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Exam.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Exam.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Exam.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Exam.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Exam.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Exam3.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Exam3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Exam3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Exam3.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Exam3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Exam3.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Exam4.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Exam4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Exam4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Exam4.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Exam4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Exam4.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Exam 5.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Exam%205.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam%205.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Exam%205.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam%205.cpp')
-  
   Globals.cpp
   HTMLCssTheory.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'HTMLCssTheory.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'HTMLCssTheory.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'HTMLCssTheory.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'HTMLCssTheory.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'HTMLCssTheory.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'HTMLCssTheory.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'HTMLCssTheory.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Exam2.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Exam2.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam2.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Exam2.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Exam2.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Exam2.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Exam2.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Exam2.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Lesson3.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Lesson3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Lesson3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Lesson3.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Lesson3.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Lesson3.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Lesson4.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Lesson4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Lesson4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Lesson4.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Lesson4.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Lesson4.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   Lesson5.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Lesson5.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson5.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Lesson5.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Lesson5.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Lesson5.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Lesson5.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Lesson5.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
+  Login.cpp
   Main.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Main.cpp')
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,68): error C2039: 'label2_Click': is not a member of 'SmartX::Login'
+  (compiling source file 'Login.cpp')
+  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(17,19):
+  see declaration of 'SmartX::Login'
   
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Main.cpp')
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,68): error C2065: 'label2_Click': undeclared identifier
+  (compiling source file 'Login.cpp')
   
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Main.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Main.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Main.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Main.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Main.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,53): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'Login.cpp')
+  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,53):
   pointer to member function expected
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,68): error C2039: 'label3_Click': is not a member of 'SmartX::Login'
+  (compiling source file 'Login.cpp')
+  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(17,19):
+  see declaration of 'SmartX::Login'
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,68): error C2065: 'label3_Click': undeclared identifier
+  (compiling source file 'Login.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,53): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'Login.cpp')
+  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,53):
+  pointer to member function expected
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,6): error C2065: 'Lesson5': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,15): error C2065: 'lesson5': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,31): error C2061: syntax error: identifier 'Lesson5'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(230,6): error C2065: 'lesson5': undeclared identifier
+  (compiling source file 'Main.cpp')
   
   MainForm.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,6): error C2065: 'Lesson5': undeclared identifier
   (compiling source file 'MainForm.cpp')
   
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,15): error C2065: 'lesson5': undeclared identifier
   (compiling source file 'MainForm.cpp')
   
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,31): error C2061: syntax error: identifier 'Lesson5'
   (compiling source file 'MainForm.cpp')
   
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(230,6): error C2065: 'lesson5': undeclared identifier
   (compiling source file 'MainForm.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'MainForm.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'MainForm.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'MainForm.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
   
   Register.cpp
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,9): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Register.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,18): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Register.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(230,35): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Register.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Exam 5.h(231,9): error C2065: 'nextForm': undeclared identifier
-  (compiling source file 'Register.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C2039: 'Lesson5_Load': is not a member of 'SmartX::Lesson5'
-  (compiling source file 'Register.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(16,19):
-  see declaration of 'SmartX::Lesson5'
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,61): error C3861: 'Lesson5_Load': identifier not found
-  (compiling source file 'Register.cpp')
-  
-C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Register.cpp')
-  C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Lesson5.h(243,44):
-  pointer to member function expected
-  
   .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...
