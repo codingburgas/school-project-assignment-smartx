@@ -1,30 +1,27 @@
-﻿  Exam.cpp
-  Exam3.cpp
-  Exam4.cpp
-  Finalex.cpp
-  Finalles.cpp
-  Globals.cpp
-  HTMLCssTheory.cpp
-  Exam2.cpp
-  Lesson3.cpp
-  Lesson4.cpp
-  Login.cpp
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,68): error C2039: 'label2_Click': is not a member of 'SmartX::Login'
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(17,19): message : see declaration of 'SmartX::Login'
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): error C2065: 'label2_Click': undeclared identifier
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): message : pointer to member function expected
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,68): error C2039: 'label3_Click': is not a member of 'SmartX::Login'
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(17,19): message : see declaration of 'SmartX::Login'
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): error C2065: 'label3_Click': undeclared identifier
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): message : pointer to member function expected
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+﻿  Login.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(232,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'Login.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
   Main.cpp
-  MainForm.cpp
-  Register.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
   Registration.cpp
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(301,20): warning C4101: 'e': unreferenced local variable
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'Registration.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Registration.cpp')
+  
   Generating Code...
+  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  SmartX.vcxproj -> C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\x64\Debug\SmartX.exe

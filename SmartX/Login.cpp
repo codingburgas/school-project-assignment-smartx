@@ -40,8 +40,7 @@ void loginForm(array<String^>^ args)
 
 	if (User != nullptr)
 	{
-		SmartX::MainForm mainForm();
-		Application::Run(% mainForm());
+		Application::Run(gcnew SmartX::MainForm());
 	}
 	else
 	{

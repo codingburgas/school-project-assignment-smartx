@@ -1,14 +1,16 @@
   SmartX.Exam.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam3.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam4.resources - Embedded, ContainedInManifestFile, 
-  SmartX.Exam 5.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Finalex.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Finalles.resources - Embedded, ContainedInManifestFile, 
   SmartX.HTMLCssTheory.resources - Embedded, ContainedInManifestFile, 
   SmartX.Exam2.resources - Embedded, ContainedInManifestFile, 
   SmartX.Lesson3.resources - Embedded, ContainedInManifestFile, 
   SmartX.Lesson4.resources - Embedded, ContainedInManifestFile, 
-  SmartX.Lesson5.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Login.resources - Embedded, ContainedInManifestFile, 
   SmartX.MainForm.resources - Embedded, ContainedInManifestFile, 
   SmartX.Register.resources - Embedded, ContainedInManifestFile, 
+  SmartX.Registration.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly SmartX, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -24,6 +26,12 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class SmartX.Finalex: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class SmartX.Finalles: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.Exam4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -45,13 +53,21 @@ Class SmartX.HTMLCssTheory: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
 Class SmartX.Exam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Users: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Id : Public
+    System.String FirstName : Public
+    System.String LastName : Public
+    System.String Email : Public
+    System.String Password : Public
+Class SmartX.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Users user : Public
+    Boolean swichToRegistration : Public
 Class SmartX.Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class SmartX.Exam5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class SmartX.Lesson5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SmartX.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -59,3 +75,9 @@ Class SmartX.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
     refreshButtons(): PrivateScope, Public, HideBySig
+Class SmartX.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean swichToLogin : Public
+    Users user : Public

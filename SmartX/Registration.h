@@ -251,6 +251,8 @@ namespace SmartX {
 	{
 		this->swichToLogin == true;
 		this->Close();
+		
+		
 	}
 
 		   public: Users^ user = nullptr;

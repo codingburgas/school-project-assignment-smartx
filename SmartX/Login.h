@@ -103,7 +103,6 @@ namespace SmartX {
 			this->label2->Size = System::Drawing::Size(142, 54);
 			this->label2->TabIndex = 6;
 			this->label2->Text = L"Login";
-			this->label2->Click += gcnew System::EventHandler(this, &Login::label2_Click);
 			// 
 			// label3
 			// 
@@ -114,7 +113,6 @@ namespace SmartX {
 			this->label3->Size = System::Drawing::Size(102, 36);
 			this->label3->TabIndex = 7;
 			this->label3->Text = L"Email:";
-			this->label3->Click += gcnew System::EventHandler(this, &Login::label3_Click);
 			// 
 			// label4
 			// 
