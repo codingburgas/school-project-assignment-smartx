@@ -1,66 +1,30 @@
 ﻿  Exam.cpp
   Exam3.cpp
   Exam4.cpp
-  Exam 5.cpp
+  Finalex.cpp
+  Finalles.cpp
   Globals.cpp
   HTMLCssTheory.cpp
   Exam2.cpp
   Lesson3.cpp
   Lesson4.cpp
-  Lesson5.cpp
   Login.cpp
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,68): error C2039: 'label2_Click': is not a member of 'SmartX::Login'
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(17,19): message : see declaration of 'SmartX::Login'
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): error C2065: 'label2_Click': undeclared identifier
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(106,1): message : pointer to member function expected
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,68): error C2039: 'label3_Click': is not a member of 'SmartX::Login'
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(17,19): message : see declaration of 'SmartX::Login'
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): error C2065: 'label3_Click': undeclared identifier
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Login.h(117,1): message : pointer to member function expected
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
   Main.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,68): error C2039: 'label2_Click': is not a member of 'SmartX::Login'
-  (compiling source file 'Login.cpp')
-  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(17,19):
-  see declaration of 'SmartX::Login'
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,68): error C2065: 'label2_Click': undeclared identifier
-  (compiling source file 'Login.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,53): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Login.cpp')
-  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(104,53):
-  pointer to member function expected
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,68): error C2039: 'label3_Click': is not a member of 'SmartX::Login'
-  (compiling source file 'Login.cpp')
-  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(17,19):
-  see declaration of 'SmartX::Login'
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,68): error C2065: 'label3_Click': undeclared identifier
-  (compiling source file 'Login.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,53): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Login.cpp')
-  C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(115,53):
-  pointer to member function expected
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,6): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'Main.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,15): error C2065: 'lesson5': undeclared identifier
-  (compiling source file 'Main.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,31): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'Main.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(230,6): error C2065: 'lesson5': undeclared identifier
-  (compiling source file 'Main.cpp')
-  
   MainForm.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,6): error C2065: 'Lesson5': undeclared identifier
-  (compiling source file 'MainForm.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,15): error C2065: 'lesson5': undeclared identifier
-  (compiling source file 'MainForm.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(229,31): error C2061: syntax error: identifier 'Lesson5'
-  (compiling source file 'MainForm.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\MainForm.h(230,6): error C2065: 'lesson5': undeclared identifier
-  (compiling source file 'MainForm.cpp')
-  
   Register.cpp
+  Registration.cpp
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Teodora\Desktop\n\school-project-assignment-smartx\SmartX\Registration.h(301,20): warning C4101: 'e': unreferenced local variable
   .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...

@@ -4,7 +4,7 @@
 #include "Lesson3.h"
 #include "Lesson4.h"
 #include "Globals.h"
-#include "Lesson5.h"
+#include "Finalles.h"
 
 namespace SmartX {
 
@@ -170,6 +170,7 @@ namespace SmartX {
 			this->button5->TabIndex = 6;
 			this->button5->Text = L"C++ Functions";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &MainForm::button5_Click_1);
 			// 
 			// pictureBox3
 			// 
@@ -226,8 +227,10 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	lesson4->Show();
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-		   Lesson5^ lesson5 = gcnew Lesson5();
-		   lesson5->Show();
+		   Finalles^ finalles = gcnew Finalles();
+		   finalles->Show();
 	   }
+private: System::Void button5_Click_1(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
