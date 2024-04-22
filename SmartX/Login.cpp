@@ -1,4 +1,4 @@
-/*#include "Login.h"
+#include "Login.h"
 #include "MainForm.h"
 #include "Registration.h"
 
@@ -11,7 +11,7 @@ void loginForm(array<String^>^ args)
 	Application::SetCompatibleTextRenderingDefault(false);
 	
 	Users^ User = nullptr;
-	while (true)
+	/*while (true)
 	{
 		SmartX::Login loginForm;
 		loginForm.ShowDialog();
@@ -36,7 +36,7 @@ void loginForm(array<String^>^ args)
 			User = loginForm.user;
 			break;
 		}
-	}
+	}*/
 
 	if (User != nullptr)
 	{
@@ -46,9 +46,9 @@ void loginForm(array<String^>^ args)
 	{
 		MessageBox::Show("Authentication Canceled");
 	}
-}*/
+}
 
-#include "Login.h"
+/*#include "Login.h"
 #include "MainForm.h"
 #include "Registration.h"
 
@@ -73,5 +73,5 @@ void loginForm(array<String^>^ args)
 	{
 		MessageBox::Show("Authentication Canceled");
 	}
-}
+}*/
 

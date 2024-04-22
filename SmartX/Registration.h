@@ -1,6 +1,7 @@
 #pragma once
 #include "Users.h"
 #include "MainForm.h"
+#include "Login.h"
 
 namespace SmartX {
 
@@ -247,13 +248,12 @@ namespace SmartX {
 
 		}
 #pragma endregion
-		//public: bool swichToLogin = false;
+
 	private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
 	{
-		//this->swichToLogin == true;
-		//this->Close();
-		Login^ log = gcnew Login();
-		log->Show();
+		/*this->Hide();
+		Login ^log = gcnew Login();
+		log->Show();*/
 		
 	}
 
@@ -301,6 +301,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		user->Email = email;
 		user->Password = password;
 
+		this->Hide();
 		MainForm^ mainForm = gcnew MainForm();
 		mainForm->Show();
 

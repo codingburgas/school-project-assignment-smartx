@@ -1,29 +1,25 @@
-﻿  Exam.cpp
-  Exam3.cpp
-  Exam4.cpp
-  Finalex.cpp
-  Finalles.cpp
-  Globals.cpp
-  HTMLCssTheory.cpp
-  Exam2.cpp
-  Lesson3.cpp
-  Lesson4.cpp
-  Login.cpp
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,3): error C2065: 'Login': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,10): error C2065: 'log': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,22): error C2061: syntax error: identifier 'Login'
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(256,3): error C2065: 'log': undeclared identifier
+﻿  Login.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
   Main.cpp
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,3): error C2065: 'Login': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,10): error C2065: 'log': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,22): error C2061: syntax error: identifier 'Login'
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(256,3): error C2065: 'log': undeclared identifier
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
   MainForm.cpp
-  Register.cpp
   Registration.cpp
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,3): error C2065: 'Login': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,10): error C2065: 'log': undeclared identifier
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(255,22): error C2061: syntax error: identifier 'Login'
-C:\Users\Lenovo\Documents\smartX\school-project-assignment-smartx\SmartX\Registration.h(256,3): error C2065: 'log': undeclared identifier
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Registration.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Registration.cpp')
+  
   Generating Code...
+  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  SmartX.vcxproj -> C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\x64\Debug\SmartX.exe

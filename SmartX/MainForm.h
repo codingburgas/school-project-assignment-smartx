@@ -206,11 +206,15 @@ namespace SmartX {
 
 		}
 #pragma endregion
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
+	{
+		this->Hide();
 		Register^ regi = gcnew Register();
 		regi->Show();
 	}
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) 
+{
+	this->Hide();
 	HTMLCssTheory^ lesson2 = gcnew HTMLCssTheory();
 	lesson2->Show();
 }
@@ -218,18 +222,24 @@ private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArg
 }
 private: System::Void MainForm_Load(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) 
+{
+	this->Hide();
 	Lesson3^ lesson3 = gcnew Lesson3();
 	lesson3->Show();
 }
-private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) 
+{
+	this->Hide();
 	Lesson4^ lesson4 = gcnew Lesson4();
 	lesson4->Show();
 }
-private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-		   Finalles^ finalles = gcnew Finalles();
-		   finalles->Show();
-	   }
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) 
+{
+	this->Hide();
+	Finalles^ finalles = gcnew Finalles();
+	finalles->Show();
+}
 private: System::Void button5_Click_1(System::Object^ sender, System::EventArgs^ e) {
 }
 };
