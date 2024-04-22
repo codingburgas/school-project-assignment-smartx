@@ -1,7 +1,7 @@
 <h1 align="center">SmartX</h1>
 <p align = "center">
   <a href=" rel="noopener">
-  <img src="" alt="Logo" width=25% height=25%>
+  <img src="./images/Logo.png" alt="Logo" width=25% height=25%>
   </a>
 </p>
 
@@ -33,7 +33,7 @@ We're a SmartX. The purpose of our application is to perform the programming tas
   
 ## 💼 Documents
 + [Presentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/Presentation.pptx)
-+ [Documentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/Documentation.docx)
++ [Documentation](./documentation/Documentation.docx)
 + [QA Documentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/QA_documentation.ods)
 
 
@@ -42,15 +42,8 @@ We're a SmartX. The purpose of our application is to perform the programming tas
 | :---:   | :---: | :---: |
 | Veselina Varadeva| Scrum Trainer | 🟩 9V |
 | Bilyana Badalova |  Back-end developer | 🟥 10B |
-<<<<<<< HEAD
 | Stela Georgieva |  Q&A  | 🟥 10B |
 | Mariela Dimova | Back-end developer  | 🟦 10G |
 | Teodora Skulieva |  Back-end developer  | 🟩 9V  |
 | Gabriela Encheva |  Back-end developer  | 🟩 9V  |
-=======
-| Gabriela Encheva|  Back-end developer  | 🟩 9V |
-| Mariela Dimova | Back-end developer  | 🟦 10G |
-| Teodora Skulieva |  Back-end developer  | 🟩 9V  |
-| Stela Georgieva |  QA developer  | 🟥 10B |
->>>>>>> 1ae139949015080507c545c62dd4970ca3e90599
 
