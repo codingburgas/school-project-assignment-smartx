@@ -109,46 +109,51 @@ namespace SmartX {
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->button1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->button1->Location = System::Drawing::Point(470, 320);
 			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 24;
-			this->button1->Text = L"Отговори";
+			this->button1->Text = L"Answer it";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Finalex::button1_Click);
 			// 
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->button2->Location = System::Drawing::Point(235, 320);
 			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 23;
-			this->button2->Text = L"Откажи се";
+			this->button2->Text = L"Give up";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &Finalex::button2_Click);
 			// 
 			// radioAnswer4
 			// 
 			this->radioAnswer4->AutoSize = true;
+			this->radioAnswer4->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer4->Location = System::Drawing::Point(27, 258);
 			this->radioAnswer4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer4->Name = L"radioAnswer4";
-			this->radioAnswer4->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer4->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer4->TabIndex = 22;
 			this->radioAnswer4->TabStop = true;
 			this->radioAnswer4->Text = L"radioButton1";
 			this->radioAnswer4->UseVisualStyleBackColor = true;
+			this->radioAnswer4->CheckedChanged += gcnew System::EventHandler(this, &Finalex::radioAnswer4_CheckedChanged);
 			// 
 			// radioAnswer3
 			// 
 			this->radioAnswer3->AutoSize = true;
+			this->radioAnswer3->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer3->Location = System::Drawing::Point(27, 215);
 			this->radioAnswer3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer3->Name = L"radioAnswer3";
-			this->radioAnswer3->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer3->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer3->TabIndex = 21;
 			this->radioAnswer3->TabStop = true;
 			this->radioAnswer3->Text = L"radioButton1";
@@ -157,10 +162,11 @@ namespace SmartX {
 			// radioAnswer2
 			// 
 			this->radioAnswer2->AutoSize = true;
+			this->radioAnswer2->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer2->Location = System::Drawing::Point(27, 171);
 			this->radioAnswer2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer2->Name = L"radioAnswer2";
-			this->radioAnswer2->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer2->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer2->TabIndex = 20;
 			this->radioAnswer2->TabStop = true;
 			this->radioAnswer2->Text = L"radioButton1";
@@ -169,10 +175,11 @@ namespace SmartX {
 			// radioAnswer1
 			// 
 			this->radioAnswer1->AutoSize = true;
+			this->radioAnswer1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer1->Location = System::Drawing::Point(27, 125);
 			this->radioAnswer1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->radioAnswer1->Name = L"radioAnswer1";
-			this->radioAnswer1->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer1->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer1->TabIndex = 19;
 			this->radioAnswer1->TabStop = true;
 			this->radioAnswer1->Text = L"radioButton1";
@@ -181,11 +188,10 @@ namespace SmartX {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
+			this->label1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->label1->Location = System::Drawing::Point(23, 54);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(53, 20);
+			this->label1->Size = System::Drawing::Size(53, 21);
 			this->label1->TabIndex = 18;
 			this->label1->Text = L"label1";
 			// 
@@ -279,6 +285,8 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		   radioAnswer2->Text = answers[currentQuestionIndex][1];
 		   radioAnswer3->Text = answers[currentQuestionIndex][2];
 		   radioAnswer4->Text = answers[currentQuestionIndex][3];
+}
+private: System::Void radioAnswer4_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

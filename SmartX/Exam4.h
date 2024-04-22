@@ -109,31 +109,34 @@ namespace SmartX {
 			// 
 			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->button1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->button1->Location = System::Drawing::Point(470, 294);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(112, 46);
 			this->button1->TabIndex = 16;
-			this->button1->Text = L"Отговори";
+			this->button1->Text = L"Answer it";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Exam4::button1_Click_1);
 			// 
 			// button2
 			// 
 			this->button2->BackColor = System::Drawing::Color::Lavender;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->button2->Location = System::Drawing::Point(226, 293);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(127, 49);
 			this->button2->TabIndex = 15;
-			this->button2->Text = L"Откажи се";
+			this->button2->Text = L"Give up";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &Exam4::button2_Click);
 			// 
 			// radioAnswer1
 			// 
 			this->radioAnswer1->AutoSize = true;
+			this->radioAnswer1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer1->Location = System::Drawing::Point(44, 99);
 			this->radioAnswer1->Name = L"radioAnswer1";
-			this->radioAnswer1->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer1->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer1->TabIndex = 11;
 			this->radioAnswer1->TabStop = true;
 			this->radioAnswer1->Text = L"radioButton1";
@@ -142,9 +145,10 @@ namespace SmartX {
 			// radioAnswer2
 			// 
 			this->radioAnswer2->AutoSize = true;
+			this->radioAnswer2->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer2->Location = System::Drawing::Point(44, 145);
 			this->radioAnswer2->Name = L"radioAnswer2";
-			this->radioAnswer2->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer2->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer2->TabIndex = 12;
 			this->radioAnswer2->TabStop = true;
 			this->radioAnswer2->Text = L"radioButton1";
@@ -153,9 +157,10 @@ namespace SmartX {
 			// radioAnswer3
 			// 
 			this->radioAnswer3->AutoSize = true;
+			this->radioAnswer3->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer3->Location = System::Drawing::Point(44, 189);
 			this->radioAnswer3->Name = L"radioAnswer3";
-			this->radioAnswer3->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer3->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer3->TabIndex = 13;
 			this->radioAnswer3->TabStop = true;
 			this->radioAnswer3->Text = L"radioButton1";
@@ -164,9 +169,10 @@ namespace SmartX {
 			// radioAnswer4
 			// 
 			this->radioAnswer4->AutoSize = true;
+			this->radioAnswer4->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->radioAnswer4->Location = System::Drawing::Point(44, 232);
 			this->radioAnswer4->Name = L"radioAnswer4";
-			this->radioAnswer4->Size = System::Drawing::Size(103, 20);
+			this->radioAnswer4->Size = System::Drawing::Size(125, 25);
 			this->radioAnswer4->TabIndex = 14;
 			this->radioAnswer4->TabStop = true;
 			this->radioAnswer4->Text = L"radioButton1";
@@ -175,11 +181,10 @@ namespace SmartX {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
+			this->label1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->label1->Location = System::Drawing::Point(40, 28);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(53, 20);
+			this->label1->Size = System::Drawing::Size(53, 21);
 			this->label1->TabIndex = 10;
 			this->label1->Text = L"label1";
 			// 

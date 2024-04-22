@@ -90,12 +90,13 @@ namespace SmartX {
 			// 
 			this->buttonTest->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->buttonTest->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F));
 			this->buttonTest->Location = System::Drawing::Point(390, 402);
 			this->buttonTest->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->buttonTest->Name = L"buttonTest";
 			this->buttonTest->Size = System::Drawing::Size(135, 47);
 			this->buttonTest->TabIndex = 0;
-			this->buttonTest->Text = L"Към теста";
+			this->buttonTest->Text = L"Test";
 			this->buttonTest->UseVisualStyleBackColor = false;
 			this->buttonTest->Click += gcnew System::EventHandler(this, &Register::button1_Click);
 			// 
@@ -128,8 +129,8 @@ namespace SmartX {
 			// 
 			// richTextBox2
 			// 
-			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Lucida Console", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
+			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Bodoni MT", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->richTextBox2->Location = System::Drawing::Point(6, 21);
 			this->richTextBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox2->Name = L"richTextBox2";
@@ -169,7 +170,7 @@ namespace SmartX {
 			// 
 			// richTextBox7
 			// 
-			this->richTextBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox7->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox7->Location = System::Drawing::Point(15, 349);
 			this->richTextBox7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -180,7 +181,7 @@ namespace SmartX {
 			// 
 			// richTextBox6
 			// 
-			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox6->Location = System::Drawing::Point(15, 283);
 			this->richTextBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -192,7 +193,7 @@ namespace SmartX {
 			// 
 			// richTextBox5
 			// 
-			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox5->Location = System::Drawing::Point(15, 217);
 			this->richTextBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -204,7 +205,7 @@ namespace SmartX {
 			// 
 			// richTextBox4
 			// 
-			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox4->Location = System::Drawing::Point(15, 151);
 			this->richTextBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -212,10 +213,11 @@ namespace SmartX {
 			this->richTextBox4->Size = System::Drawing::Size(546, 62);
 			this->richTextBox4->TabIndex = 4;
 			this->richTextBox4->Text = L"double - stores floating point numbers, with decimals, such as 19.99 or -19.99";
+			this->richTextBox4->TextChanged += gcnew System::EventHandler(this, &Register::richTextBox4_TextChanged);
 			// 
 			// richTextBox3
 			// 
-			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox3->Location = System::Drawing::Point(15, 85);
 			this->richTextBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -226,7 +228,7 @@ namespace SmartX {
 			// 
 			// richTextBox8
 			// 
-			this->richTextBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->richTextBox8->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->richTextBox8->Location = System::Drawing::Point(15, 19);
 			this->richTextBox8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -276,6 +278,8 @@ private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::E
 private: System::Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void richTextBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void richTextBox4_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
