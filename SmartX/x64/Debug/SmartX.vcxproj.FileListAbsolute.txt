@@ -74,3 +74,18 @@ C:\Users\Teodora\Desktop\New folder (3)\school-project-assignment-smartx\SmartX\
 C:\Users\Teodora\Desktop\New folder (3)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
 C:\Users\Teodora\Desktop\New folder (3)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Registration.resources
 C:\Users\Teodora\Desktop\New folder (3)\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam3.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam4.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Finalex.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Finalles.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.HTMLCssTheory.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Exam2.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson3.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Lesson4.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Login.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.MainForm.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Register.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.Registration.resources
+C:\Users\Admin\Desktop\final\school-project-assignment-smartx\SmartX\x64\Debug\SmartX.vcxproj.GenerateResource.cache
