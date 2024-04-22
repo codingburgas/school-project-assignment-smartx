@@ -79,5 +79,4 @@ Class SmartX.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
-    Boolean swichToLogin : Public
     Users user : Public

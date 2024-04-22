@@ -202,15 +202,15 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 
 	try
 	{
-		String^ connect = "Data Source=smartx.database.windows.net;Initial Catalog=SmartX;User ID=MIDimova21;Password=***********;Encrypt=True";
+		String^ connect = "Data Source=smartx.database.windows.net;Initial Catalog=SmartX;User ID=MIDimova21;Password=Gam14402;Encrypt=True";
 
 		SqlConnection sqlConn(connect);
 		sqlConn.Open();
 
-		String^ sqlQuery = "SELECT * FROM Users WHERE email=@email AND password=@pwd;";
+		String^ sqlQuery = "SELECT * FROM Users WHERE Email=@Email AND Password=@Password;";
 		SqlCommand command(sqlQuery, % sqlConn);
-		command.Parameters->AddWithValue("@email", email);
-		command.Parameters->AddWithValue("@pwd", password);
+		command.Parameters->AddWithValue("@Email", email);
+		command.Parameters->AddWithValue("@Password", password);
 	
 		SqlDataReader^ reader = command.ExecuteReader();
 		if (reader->Read())
@@ -222,7 +222,10 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 			user->Email = reader->GetString(3);
 			user->Password = reader->GetString(4);
 
-			this->Close();
+			MessageBox::Show("Email or password is correct");
+
+
+			//this->Close();
 		}
 		else
 		{

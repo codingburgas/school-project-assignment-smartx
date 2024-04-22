@@ -1,25 +1,19 @@
 ﻿  Login.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(232,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(234,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Login.cpp')
   
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
-  (compiling source file 'Login.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(305,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Login.cpp')
   
   Main.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(234,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Main.cpp')
   
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(305,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Main.cpp')
   
   Registration.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
-  (compiling source file 'Registration.cpp')
-  
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(303,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(305,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Registration.cpp')
   
   Generating Code...

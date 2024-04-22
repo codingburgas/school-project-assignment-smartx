@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>Driver={ODBC Driver 18 for SQL Server};Server=tcp:smartx.database.windows.net,1433;Database=SmartX;Uid=MIDimova21;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>Driver={ODBC Driver 18 for SQL Server};Server=tcp:smartx.database.windows.net,1433;Database=SmartX;Uid=MIDimova21;Pwd=Gam14402;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerSQLDebugging>true</LocalDebuggerSQLDebugging>
   </PropertyGroup>
 </Project>

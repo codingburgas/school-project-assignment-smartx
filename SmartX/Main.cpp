@@ -1,5 +1,6 @@
 #include "Register.h"
 //#include "MainForm.h"
+#include "Login.h"
 #include "Registration.h"
 
 using namespace System;
@@ -12,6 +13,6 @@ int main(array<String^>^ args)
     Application::SetCompatibleTextRenderingDefault(false);
 
     // Run the main form
-    Application::Run(gcnew SmartX::Registration());
+    Application::Run(gcnew SmartX::Login());
     return 0;
 }
