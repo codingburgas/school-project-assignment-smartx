@@ -50,24 +50,24 @@ namespace SmartX {
 		/// Required designer variable.
 		/// </summary>
 		static array<System::String^>^ questions = gcnew array<System::String^>{
-		"What is the primary purpose of using structures (structs) in C++?",
-			"How are the members of a structure declared in C++?",
-			"Can a structure in C++ contain variables of different data types?",
-			"What keyword is used to create a structure in C++ ?",
-			"How can you treat a structure in C++ ?"
+		"What is the primary purpose of a function in C++?",
+			"How are parameters passed into a function in C++?",
+			"Why are functions important in programming?",
+			"When are declared functions executed in C++?",
+			"How do you call a function in C++?"
 	};
 
 	// Static 2D array of answers for each question
 	static array<array<System::String^>^>^ answers = gcnew array<array<System::String^>^>{
-		gcnew array<System::String^>{"To group unrelated variables together", "To create functions that operate on multiple variables", "To store several related variables into one place", "To enforce encapsulation of data"},
-			gcnew array<System::String^>{"Inside parentheses", "Inside square brackets", "Inside angle brackets", "Inside curly braces"},
-			gcnew array<System::String^>{"No, a structure can only contain variables of the same data type", "Yes, a structure can contain variables of different data types", "Only if the structure is declared as a class", "Only if the variables are all integers"},
-			gcnew array<System::String^>{"class", "struct", "union", "typedef"},
-			gcnew array<System::String^>{"As a loop construct", "As a function definition", "As a data type", "As a library function"}
+		gcnew array<System::String^>{"To execute code immediately upon declaration", "To store data for later use", "To perform certain actions when called", "To define variables with specific data types"},
+			gcnew array<System::String^>{"Inside single quotes", "Separated by commas", "Enclosed in parentheses", "Separated by semicolons"},
+			gcnew array<System::String^>{"To confuse the compiler", "To increase program complexity", "To define code once and reuse it many times", "To execute code only once"},
+			gcnew array<System::String^>{"Immediately upon declaration", "When the program starts", "When they are called", "After the main() function"},
+			gcnew array<System::String^>{"By using the 'execute' keyword", "By using curly braces {}", "By writing the function's name followed by two parentheses () and a semicolon ;", "By using the 'invoke' keyword"}
 	};
 
 	// Static array of indices for the correct answer of each question
-	static array<int>^ correctAnswers = gcnew array<int>{2, 3, 1, 1, 2};
+	static array<int>^ correctAnswers = gcnew array<int>{2, 2, 2, 2, 2};
 
 	// Fields for tracking the current question and number of right answers
 	static int currentQuestionIndex = 0;
