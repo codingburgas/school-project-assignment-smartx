@@ -32,7 +32,7 @@ We're a SmartX. The purpose of our application is to perform the programming tas
   </p> 
   
 ## 💼 Documents
-+ [Presentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/Presentation.pptx)
++ [Presentation](./documentation/Presentation.pptx)
 + [Documentation](./documentation/Documentation.docx)
 + [QA Documentation](https://github.com/TDSkulieva22/SmartX/blob/main/Documents/QA_documentation.ods)
 
