@@ -224,14 +224,14 @@ namespace SmartX {
 					   currentQuestionIndex = 0;
 				   }
 				   else {
-					   MessageBox::Show("Congratulations, you can now proceed to the next tutorial.");
+					   MessageBox::Show("Congratulations, you passed all the lessons and tests successfully.");
 					   // TODO Show main form!!!
 					   if (Globals::ModulesCompleted == 0) {
 						   Globals::ModulesCompleted = 5;
 					   }
-					   this->Hide();
-					   Finalex^ nextForm = gcnew Finalex();
-					   nextForm->Show();
+					   this->Close();
+					   /*Finalex^ nextForm = gcnew Finalex();
+					   nextForm->Show();*/
 					   return;
 				   }
 			   }

@@ -107,65 +107,67 @@ namespace SmartX {
 			this->groupBox1->Size = System::Drawing::Size(583, 420);
 			this->groupBox1->TabIndex = 11;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Кратка теория";
+			this->groupBox1->Text = L"Theory";
 			// 
 			// richTextBox7
 			// 
 			this->richTextBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox7->Location = System::Drawing::Point(15, 349);
+			this->richTextBox7->Location = System::Drawing::Point(15, 336);
 			this->richTextBox7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox7->Name = L"richTextBox7";
 			this->richTextBox7->Size = System::Drawing::Size(546, 62);
 			this->richTextBox7->TabIndex = 7;
-			this->richTextBox7->Text = L"Variables with this structure anywhere in the program at any time.";
+			this->richTextBox7->Text = L"To call a function, write the function\'s name followed by two parentheses () and "
+				L"a semicolon ;";
 			// 
 			// richTextBox6
 			// 
 			this->richTextBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox6->Location = System::Drawing::Point(15, 283);
+			this->richTextBox6->Location = System::Drawing::Point(15, 270);
 			this->richTextBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox6->Name = L"richTextBox6";
 			this->richTextBox6->Size = System::Drawing::Size(546, 62);
 			this->richTextBox6->TabIndex = 6;
-			this->richTextBox6->Text = L"By giving a name to the structure, you can treat it as a data type. This means th"
-				L"at you can create";
+			this->richTextBox6->Text = L"Declared functions are not executed immediately. They are \"saved for later use\", "
+				L"and will be executed later, when they are called.";
 			// 
 			// richTextBox5
 			// 
 			this->richTextBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox5->Location = System::Drawing::Point(15, 217);
+			this->richTextBox5->Location = System::Drawing::Point(15, 192);
 			this->richTextBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox5->Name = L"richTextBox5";
-			this->richTextBox5->Size = System::Drawing::Size(546, 62);
+			this->richTextBox5->Size = System::Drawing::Size(546, 74);
 			this->richTextBox5->TabIndex = 5;
-			this->richTextBox5->Text = L"To create a structure, use the struct keyword and declare each of its members ins"
-				L"ide curly braces.\n";
+			this->richTextBox5->Text = L"C++ provides some pre-defined functions, such as main(), which is used to execute"
+				L" code. But you can also create your own functions to perform certain actions.";
 			// 
 			// richTextBox4
 			// 
 			this->richTextBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox4->Location = System::Drawing::Point(15, 151);
+			this->richTextBox4->Location = System::Drawing::Point(15, 115);
 			this->richTextBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox4->Name = L"richTextBox4";
-			this->richTextBox4->Size = System::Drawing::Size(546, 62);
+			this->richTextBox4->Size = System::Drawing::Size(546, 73);
 			this->richTextBox4->TabIndex = 4;
-			this->richTextBox4->Text = L"Unlike an array, a structure can contain many different data types (int, string, "
-				L"bool, etc.).\n";
+			this->richTextBox4->Text = L"Functions are used to perform certain actions, and they are important for reusing"
+				L" code: Define the code once, and use it many times.";
+			this->richTextBox4->TextChanged += gcnew System::EventHandler(this, &Finalles::richTextBox4_TextChanged);
 			// 
 			// richTextBox3
 			// 
 			this->richTextBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox3->Location = System::Drawing::Point(15, 85);
+			this->richTextBox3->Location = System::Drawing::Point(15, 66);
 			this->richTextBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox3->Name = L"richTextBox3";
-			this->richTextBox3->Size = System::Drawing::Size(546, 62);
+			this->richTextBox3->Size = System::Drawing::Size(546, 45);
 			this->richTextBox3->TabIndex = 3;
-			this->richTextBox3->Text = L"Each variable in the structure is known as a member of the structure.";
+			this->richTextBox3->Text = L"You can pass data, known as parameters, into a function.";
 			// 
 			// richTextBox1
 			// 
@@ -174,10 +176,9 @@ namespace SmartX {
 			this->richTextBox1->Location = System::Drawing::Point(15, 19);
 			this->richTextBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(546, 62);
+			this->richTextBox1->Size = System::Drawing::Size(546, 43);
 			this->richTextBox1->TabIndex = 2;
-			this->richTextBox1->Text = L"Structures (also called structs) are a way to group several related variables int"
-				L"o one place. ";
+			this->richTextBox1->Text = L"A function is a block of code which only runs when it is called.";
 			// 
 			// groupBox2
 			// 
@@ -191,7 +192,7 @@ namespace SmartX {
 			this->groupBox2->Size = System::Drawing::Size(527, 528);
 			this->groupBox2->TabIndex = 10;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Text = L"Example";
 			// 
 			// pictureBox3
 			// 
@@ -221,12 +222,13 @@ namespace SmartX {
 			// 
 			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Lucida Console", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox2->Location = System::Drawing::Point(23, 21);
+			this->richTextBox2->Location = System::Drawing::Point(6, 25);
 			this->richTextBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox2->Name = L"richTextBox2";
 			this->richTextBox2->Size = System::Drawing::Size(498, 164);
 			this->richTextBox2->TabIndex = 0;
-			this->richTextBox2->Text = resources->GetString(L"richTextBox2.Text");
+			this->richTextBox2->Text = L"#include <iostream>\nusing namespace std;\n\nvoid myFunction() {\n\n  cout << \"I just "
+				L"got executed!\";\n\n}\n\nint main() {\n\n  myFunction();\n\n  return 0;\n\n}";
 			// 
 			// Finalles
 			// 
@@ -257,6 +259,8 @@ private: System::Void buttonTest_Click(System::Object^ sender, System::EventArgs
 
 	// Show the Exam form
 	finalexForm->Show();
+}
+private: System::Void richTextBox4_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

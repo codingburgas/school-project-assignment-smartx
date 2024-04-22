@@ -97,7 +97,7 @@ namespace SmartX {
 			this->groupBox1->Size = System::Drawing::Size(583, 420);
 			this->groupBox1->TabIndex = 8;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Кратка теория";
+			this->groupBox1->Text = L"Theory";
 			// 
 			// richTextBox7
 			// 
@@ -188,14 +188,14 @@ namespace SmartX {
 			this->groupBox2->Controls->Add(this->pictureBox3);
 			this->groupBox2->Controls->Add(this->buttonTest);
 			this->groupBox2->Controls->Add(this->richTextBox2);
-			this->groupBox2->Location = System::Drawing::Point(600, -3);
+			this->groupBox2->Location = System::Drawing::Point(600, 11);
 			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox2->Size = System::Drawing::Size(527, 528);
+			this->groupBox2->Size = System::Drawing::Size(527, 514);
 			this->groupBox2->TabIndex = 7;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Text = L"Example";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &Lesson4::groupBox2_Enter);
 			// 
 			// pictureBox3
@@ -213,10 +213,10 @@ namespace SmartX {
 			// 
 			this->richTextBox2->Font = (gcnew System::Drawing::Font(L"Lucida Console", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox2->Location = System::Drawing::Point(23, 21);
+			this->richTextBox2->Location = System::Drawing::Point(6, 21);
 			this->richTextBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->richTextBox2->Name = L"richTextBox2";
-			this->richTextBox2->Size = System::Drawing::Size(498, 164);
+			this->richTextBox2->Size = System::Drawing::Size(515, 164);
 			this->richTextBox2->TabIndex = 0;
 			this->richTextBox2->Text = resources->GetString(L"richTextBox2.Text");
 			// 
