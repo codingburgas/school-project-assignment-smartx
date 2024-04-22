@@ -252,7 +252,8 @@ namespace SmartX {
 	{
 		//this->swichToLogin == true;
 		//this->Close();
-		
+		Login^ log = gcnew Login();
+		log->Show();
 		
 	}
 
@@ -300,7 +301,10 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		user->Email = email;
 		user->Password = password;
 
-		this->Close();
+		MainForm^ mainForm = gcnew MainForm();
+		mainForm->Show();
+
+		//this->Close();
 	}
 	catch (Exception^ e)
 	{

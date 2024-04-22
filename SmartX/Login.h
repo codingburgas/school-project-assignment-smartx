@@ -1,5 +1,6 @@
 #pragma once
 #include "Users.h"
+#include "Registration.h"
 
 namespace SmartX {
 
@@ -222,8 +223,9 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 			user->Email = reader->GetString(3);
 			user->Password = reader->GetString(4);
 
-			MessageBox::Show("Email or password is correct");
 
+			MainForm^ mainForm = gcnew MainForm();
+			mainForm->Show();
 
 			//this->Close();
 		}
@@ -237,11 +239,13 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 		MessageBox::Show("Failed to connect database");
 	}
 }
-	   public: bool swichToRegistration = false;
+	   //public: bool swichToRegistration = false;
 private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
 {
-	this->swichToRegistration = true;
-		this->Close();
+		//this->Close();
+	Registration^ reg = gcnew Registration();
+	reg->Show();
+		
 }
 };
 }

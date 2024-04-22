@@ -61,12 +61,6 @@ Class Users: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     System.String LastName : Public
     System.String Email : Public
     System.String Password : Public
-Class SmartX.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    Users user : Public
-    Boolean swichToRegistration : Public
 Class SmartX.Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -76,6 +70,11 @@ Class SmartX.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     refreshButtons(): PrivateScope, Public, HideBySig
 Class SmartX.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Users user : Public
+Class SmartX.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
