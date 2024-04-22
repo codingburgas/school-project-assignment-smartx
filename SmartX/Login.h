@@ -227,7 +227,6 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 		MessageBox::Show("Failed to connect database");
 	}
 }
-<<<<<<< HEAD
 	   public: bool swichToRegistration = false;
 private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
 {
@@ -236,7 +235,5 @@ private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Win
 }
 private: System::Void Login_Load(System::Object^ sender, System::EventArgs^ e) {
 }
-=======
->>>>>>> 1ae139949015080507c545c62dd4970ca3e90599
 };
 }

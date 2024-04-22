@@ -224,8 +224,8 @@ namespace SmartX {
 							Globals::ModulesCompleted = 4;
 						}
 						this->Hide();
-						//Exam5^ nextForm = gcnew Exam5();
-						//nextForm->Show();
+						Finalles^ nextForm = gcnew Finalles();
+						nextForm->Show();
 						return;
 					}
 				}

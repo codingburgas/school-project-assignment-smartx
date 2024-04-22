@@ -3426,43 +3426,4 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>#include &lt;iostream&gt;
-#include &lt;string&gt;
-using namespace std;
-
-// Declare a structure named "car"
-
-struct car {
-  string brand;
-  string model;
-  int year;
-};
-
-int main() {
-
-  // Create a car structure and store it in myCar1;
-
-  car myCar1;
-  myCar1.brand = "BMW";
-  myCar1.model = "X5";
-  myCar1.year = 1999;
-
-  // Create another car structure and store it in myCar2;
-
-  car myCar2;
-  myCar2.brand = "Ford";
-  myCar2.model = "Mustang";
-  myCar2.year = 1969;
-
-  // Print the structure members
-
-  cout &lt;&lt; myCar1.brand &lt;&lt; " " &lt;&lt; myCar1.model &lt;&lt; " " &lt;&lt; myCar1.year &lt;&lt; "\n";
-  cout &lt;&lt; myCar2.brand &lt;&lt; " " &lt;&lt; myCar2.model &lt;&lt; " " &lt;&lt; myCar2.year &lt;&lt; "\n";
-  return 0;
-
-}
-
-}</value>
-  </data>
 </root>

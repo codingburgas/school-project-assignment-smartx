@@ -229,9 +229,9 @@ namespace SmartX {
 					   if (Globals::ModulesCompleted == 0) {
 						   Globals::ModulesCompleted = 5;
 					   }
-					   this->Hide();
-					   Finalex^ nextForm = gcnew Finalex();
-					   nextForm->Show();
+					   this->Close();
+					   /*Finalex^ nextForm = gcnew Finalex();
+					   nextForm->Show();*/
 					   return;
 				   }
 			   }
