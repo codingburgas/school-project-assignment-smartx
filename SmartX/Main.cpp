@@ -13,6 +13,6 @@ int main(array<String^>^ args)
     Application::SetCompatibleTextRenderingDefault(false);
 
     // Run the main form
-    Application::Run(gcnew SmartX::Login());
+    Application::Run(gcnew SmartX::Registration());
     return 0;
 }

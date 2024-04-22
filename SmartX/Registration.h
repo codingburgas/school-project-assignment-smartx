@@ -251,9 +251,9 @@ namespace SmartX {
 
 	private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
 	{
-		/*this->Hide();
+		this->Hide();
 		Login ^log = gcnew Login();
-		log->Show();*/
+		log->Show();
 		
 	}
 

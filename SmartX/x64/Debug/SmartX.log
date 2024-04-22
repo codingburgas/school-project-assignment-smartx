@@ -1,20 +1,19 @@
 ﻿  Login.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Login.cpp')
   
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Login.cpp')
   
   Main.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Main.cpp')
   
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
-  (compiling source file 'Main.cpp')
-  
-  MainForm.cpp
   Registration.cpp
-C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(247,20): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
   (compiling source file 'Registration.cpp')
   
 C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable

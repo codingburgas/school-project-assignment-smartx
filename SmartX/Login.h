@@ -1,6 +1,5 @@
 #pragma once
 #include "Users.h"
-#include "Registration.h"
 #include "MainForm.h"
 
 
@@ -47,7 +46,7 @@ namespace SmartX {
 	private: System::Windows::Forms::TextBox^ textBox1;
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button2;
+
 
 
 	protected:
@@ -74,7 +73,6 @@ namespace SmartX {
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -155,26 +153,12 @@ namespace SmartX {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Login::button1_Click_1);
 			// 
-			// button2
-			// 
-			this->button2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)));
-			this->button2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-			this->button2->Location = System::Drawing::Point(580, 432);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(98, 25);
-			this->button2->TabIndex = 13;
-			this->button2->Text = L"Registration";
-			this->button2->UseVisualStyleBackColor = false;
-			this->button2->Click += gcnew System::EventHandler(this, &Login::button2_Click);
-			// 
 			// Login
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
 			this->ClientSize = System::Drawing::Size(1067, 578);
-			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox2);
 			this->Controls->Add(this->textBox1);
@@ -191,13 +175,6 @@ namespace SmartX {
 
 		}
 #pragma endregion
-
-		private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)
-		{
-			/*this->Hide();
-			Registration^ reg = gcnew Registration();
-			reg->Show();*/
-		}
 
 public: Users^ user = nullptr;
 
