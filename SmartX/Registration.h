@@ -1,5 +1,7 @@
 #pragma once
 #include "Users.h"
+#include "MainForm.h"
+#include "Login.h"
 
 namespace SmartX {
 
@@ -246,11 +248,13 @@ namespace SmartX {
 
 		}
 #pragma endregion
-		public: bool swichToLogin = false;
+
 	private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) 
 	{
-		this->swichToLogin == true;
-		this->Close();
+		this->Hide();
+		Login ^log = gcnew Login();
+		log->Show();
+		
 	}
 
 		   public: Users^ user = nullptr;
@@ -276,18 +280,19 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 
 	try
 	{
-		String^ connect = "Data Source=smartx.database.windows.net;Initial Catalog=SmartX;User ID=MIDimova21;Password=***********;Encrypt=True";
+		String^ connect = "Data Source=smartx.database.windows.net;Initial Catalog=SmartX;User ID=MIDimova21;Password=Gam14402;Encrypt=True";
+
+		
 
 		SqlConnection sqlConn(connect);
 		sqlConn.Open();
 
-		String^ sqlQuery = "INSERT INTO Users " + "(firstName, lastName, email, password, confirmPassword) VALUES " + "(@firstName, @lastName, @email, @password, 2confirmPassword);";
+		String^ sqlQuery = "INSERT INTO Users " + "(FirstName, LastName, Email, Password) VALUES " + "(@FirstName, @LastName, @Email, @Password);";
 		SqlCommand command(sqlQuery, % sqlConn);
-		command.Parameters->AddWithValue("@firstName", firstName);
-		command.Parameters->AddWithValue("@lastName", lastName);
-		command.Parameters->AddWithValue("@email", email);
-		command.Parameters->AddWithValue("@password", password);
-		command.Parameters->AddWithValue("@confirmPassword", confirmPassword);
+		command.Parameters->AddWithValue("@FirstName", firstName);
+		command.Parameters->AddWithValue("@LastName", lastName);
+		command.Parameters->AddWithValue("@Email", email);
+		command.Parameters->AddWithValue("@Password", password);
 
 		command.ExecuteNonQuery();
 		user = gcnew Users;
@@ -296,7 +301,11 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		user->Email = email;
 		user->Password = password;
 
-		this->Close();
+		this->Hide();
+		MainForm^ mainForm = gcnew MainForm();
+		mainForm->Show();
+
+		//this->Close();
 	}
 	catch (Exception^ e)
 	{

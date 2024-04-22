@@ -1,4 +1,5 @@
 ﻿  Login.cpp
+<<<<<<< HEAD
 C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Login.h(106,68): error C2039: 'label2_Click': is not a member of 'SmartX::Login'
   (compiling source file 'Login.cpp')
   C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Login.h(17,19):
@@ -28,3 +29,28 @@ C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-sm
 C:\Users\HP\OneDrive\Работен плот\SmartX\school-project-assignment-smartx\SmartX\Registration.h(252,22): warning C4553: '==': result of expression not used; did you intend '='?
   (compiling source file 'Login.cpp')
   
+=======
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Login.cpp')
+  
+  Main.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Main.cpp')
+  
+  Registration.cpp
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Login.h(224,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Registration.cpp')
+  
+C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\SmartX\Registration.h(310,20): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'Registration.cpp')
+  
+  Generating Code...
+  Exam.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  SmartX.vcxproj -> C:\Users\Admin\Desktop\SmartX\school-project-assignment-smartx\x64\Debug\SmartX.exe
+>>>>>>> 1ae139949015080507c545c62dd4970ca3e90599

@@ -11,7 +11,7 @@ void loginForm(array<String^>^ args)
 	Application::SetCompatibleTextRenderingDefault(false);
 	
 	Users^ User = nullptr;
-	while (true)
+	/*while (true)
 	{
 		SmartX::Login loginForm;
 		loginForm.ShowDialog();
@@ -36,16 +36,42 @@ void loginForm(array<String^>^ args)
 			User = loginForm.user;
 			break;
 		}
-	}
+	}*/
 
 	if (User != nullptr)
 	{
-		SmartX::MainForm mainForm();
-		Application::Run(% mainForm());
+		Application::Run(gcnew SmartX::MainForm());
 	}
 	else
 	{
 		MessageBox::Show("Authentication Canceled");
 	}
 }
+
+/*#include "Login.h"
+#include "MainForm.h"
+#include "Registration.h"
+
+using namespace System;
+using namespace System::Windows::Forms;
+
+void loginForm(array<String^>^ args)
+{
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	SmartX::Login loginForm;
+
+	loginForm.ShowDialog();
+	Users^ User = loginForm.user;
+
+
+	if (User != nullptr)
+	{
+		MessageBox::Show("Authentication Aproved");
+	}
+	else
+	{
+		MessageBox::Show("Authentication Canceled");
+	}
+}*/
 

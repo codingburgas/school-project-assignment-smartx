@@ -42,8 +42,15 @@ We're a SmartX. The purpose of our application is to perform the programming tas
 | :---:   | :---: | :---: |
 | Veselina Varadeva| Scrum Trainer | 🟩 9V |
 | Bilyana Badalova |  Back-end developer | 🟥 10B |
+<<<<<<< HEAD
 | Stela Georgieva |  Q&A  | 🟥 10B |
 | Mariela Dimova | Back-end developer  | 🟦 10G |
 | Teodora Skulieva |  Back-end developer  | 🟩 9V  |
 | Gabriela Encheva |  Back-end developer  | 🟩 9V  |
+=======
+| Gabriela Encheva|  Back-end developer  | 🟩 9V |
+| Mariela Dimova | Back-end developer  | 🟦 10G |
+| Teodora Skulieva |  Back-end developer  | 🟩 9V  |
+| Stela Georgieva |  QA developer  | 🟥 10B |
+>>>>>>> 1ae139949015080507c545c62dd4970ca3e90599
 
