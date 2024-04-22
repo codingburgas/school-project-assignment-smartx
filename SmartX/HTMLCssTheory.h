@@ -115,7 +115,7 @@ namespace SmartX {
 			this->groupBox2->Size = System::Drawing::Size(527, 488);
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Text = L"Example";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &HTMLCssTheory::groupBox2_Enter);
 			// 
 			// pictureBox1
@@ -165,7 +165,7 @@ namespace SmartX {
 			this->groupBox3->Size = System::Drawing::Size(583, 420);
 			this->groupBox3->TabIndex = 14;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Кратка теория";
+			this->groupBox3->Text = L"Theory";
 			// 
 			// richTextBox7
 			// 

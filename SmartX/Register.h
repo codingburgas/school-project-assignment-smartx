@@ -108,19 +108,19 @@ namespace SmartX {
 			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox2->Size = System::Drawing::Size(527, 453);
+			this->groupBox2->Size = System::Drawing::Size(527, 518);
 			this->groupBox2->TabIndex = 4;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Примерен код";
+			this->groupBox2->Text = L"Example";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &Register::groupBox2_Enter);
 			// 
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(6, 187);
+			this->pictureBox1->Location = System::Drawing::Point(4, 187);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(380, 270);
+			this->pictureBox1->Size = System::Drawing::Size(380, 297);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -165,7 +165,7 @@ namespace SmartX {
 			this->groupBox3->Size = System::Drawing::Size(583, 420);
 			this->groupBox3->TabIndex = 10;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Кратка теория";
+			this->groupBox3->Text = L"Theory";
 			// 
 			// richTextBox7
 			// 
