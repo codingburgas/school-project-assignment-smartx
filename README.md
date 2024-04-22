@@ -1,7 +1,7 @@
 <h1 align="center">SmartX</h1>
 <p align = "center">
   <a href=" rel="noopener">
-  <img src="Images/SmartX_logo.png" alt="Logo" width=25% height=25%>
+  <img src="" alt="Logo" width=25% height=25%>
   </a>
 </p>
 
@@ -42,8 +42,8 @@ We're a SmartX. The purpose of our application is to perform the programming tas
 | :---:   | :---: | :---: |
 | Veselina Varadeva| Scrum Trainer | 🟩 9V |
 | Bilyana Badalova |  Back-end developer | 🟥 10B |
-| Stela Georgieva |  Back-end developer  | 🟥 10B |
+| Stela Georgieva |  Q&A  | 🟥 10B |
 | Mariela Dimova | Back-end developer  | 🟦 10G |
 | Teodora Skulieva |  Back-end developer  | 🟩 9V  |
-| Gabriela Encheva |  QA developer  | 🟩 9V  |
+| Gabriela Encheva |  Back-end developer  | 🟩 9V  |
 

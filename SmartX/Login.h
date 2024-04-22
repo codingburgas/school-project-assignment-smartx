@@ -182,6 +182,7 @@ namespace SmartX {
 			this->Controls->Add(this->pictureBox1);
 			this->Name = L"Login";
 			this->Text = L"Login";
+			this->Load += gcnew System::EventHandler(this, &Login::Login_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -241,6 +242,8 @@ private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Win
 {
 	this->swichToRegistration = true;
 		this->Close();
+}
+private: System::Void Login_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
