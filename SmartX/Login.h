@@ -49,6 +49,9 @@ namespace SmartX {
 
 
 
+
+
+
 	protected:
 
 	private:
@@ -79,10 +82,10 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(12, 11);
+			this->pictureBox1->Location = System::Drawing::Point(116, 11);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(193, 48);
+			this->pictureBox1->Size = System::Drawing::Size(514, 111);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 4;
 			this->pictureBox1->TabStop = false;
@@ -90,7 +93,7 @@ namespace SmartX {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(297, 236);
+			this->label1->Location = System::Drawing::Point(264, 263);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(0, 16);
 			this->label1->TabIndex = 5;
@@ -98,36 +101,36 @@ namespace SmartX {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 28, System::Drawing::FontStyle::Bold));
-			this->label2->Location = System::Drawing::Point(426, 79);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Palatino Linotype", 25.8F, System::Drawing::FontStyle::Bold));
+			this->label2->Location = System::Drawing::Point(307, 151);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(142, 54);
+			this->label2->Size = System::Drawing::Size(142, 60);
 			this->label2->TabIndex = 6;
 			this->label2->Text = L"Login";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label3->Location = System::Drawing::Point(228, 220);
+			this->label3->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label3->Location = System::Drawing::Point(236, 240);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(102, 36);
+			this->label3->Size = System::Drawing::Size(76, 28);
 			this->label3->TabIndex = 7;
 			this->label3->Text = L"Email:";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label4->Location = System::Drawing::Point(166, 286);
+			this->label4->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label4->Location = System::Drawing::Point(236, 319);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(164, 36);
+			this->label4->Size = System::Drawing::Size(119, 28);
 			this->label4->TabIndex = 8;
 			this->label4->Text = L"Password:";
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(369, 220);
+			this->textBox1->Location = System::Drawing::Point(241, 271);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(309, 36);
@@ -135,7 +138,7 @@ namespace SmartX {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(369, 286);
+			this->textBox2->Location = System::Drawing::Point(241, 350);
 			this->textBox2->Multiline = true;
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->PasswordChar = '*';
@@ -144,13 +147,15 @@ namespace SmartX {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold));
-			this->button1->Location = System::Drawing::Point(548, 377);
+			this->button1->Location = System::Drawing::Point(319, 424);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(130, 49);
 			this->button1->TabIndex = 11;
 			this->button1->Text = L"Login";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Login::button1_Click_1);
 			// 
 			// Login
@@ -158,7 +163,7 @@ namespace SmartX {
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
-			this->ClientSize = System::Drawing::Size(1067, 578);
+			this->ClientSize = System::Drawing::Size(754, 506);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox2);
 			this->Controls->Add(this->textBox1);

@@ -88,10 +88,10 @@ namespace SmartX {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(12, 11);
-			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->pictureBox1->Location = System::Drawing::Point(187, 15);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(4, 3, 4, 3);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(193, 48);
+			this->pictureBox1->Size = System::Drawing::Size(577, 109);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 5;
 			this->pictureBox1->TabStop = false;
@@ -99,122 +99,139 @@ namespace SmartX {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 28, System::Drawing::FontStyle::Bold));
-			this->label2->Location = System::Drawing::Point(376, 64);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Palatino Linotype", 25.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label2->Location = System::Drawing::Point(338, 127);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(285, 54);
+			this->label2->Size = System::Drawing::Size(272, 60);
 			this->label2->TabIndex = 7;
 			this->label2->Text = L"Registration";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label3->Location = System::Drawing::Point(260, 307);
+			this->label3->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label3->Location = System::Drawing::Point(134, 287);
+			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(102, 36);
+			this->label3->Size = System::Drawing::Size(76, 28);
 			this->label3->TabIndex = 8;
 			this->label3->Text = L"Email:";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label4->Location = System::Drawing::Point(201, 370);
+			this->label4->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label4->Location = System::Drawing::Point(125, 390);
+			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(164, 36);
+			this->label4->Size = System::Drawing::Size(119, 28);
 			this->label4->TabIndex = 9;
 			this->label4->Text = L"Password:";
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(396, 182);
+			this->textBox1->Location = System::Drawing::Point(139, 227);
+			this->textBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(309, 36);
+			this->textBox1->Size = System::Drawing::Size(289, 43);
 			this->textBox1->TabIndex = 10;
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label1->Location = System::Drawing::Point(197, 182);
+			this->label1->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label1->Location = System::Drawing::Point(134, 195);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(168, 36);
+			this->label1->Size = System::Drawing::Size(126, 28);
 			this->label1->TabIndex = 11;
 			this->label1->Text = L"FirstName:";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label5->Location = System::Drawing::Point(197, 245);
+			this->label5->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label5->Location = System::Drawing::Point(496, 195);
+			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(165, 36);
+			this->label5->Size = System::Drawing::Size(122, 28);
 			this->label5->TabIndex = 12;
 			this->label5->Text = L"LastName:";
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(396, 245);
+			this->textBox2->Location = System::Drawing::Point(501, 227);
+			this->textBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox2->Multiline = true;
 			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(309, 36);
+			this->textBox2->Size = System::Drawing::Size(321, 43);
 			this->textBox2->TabIndex = 13;
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(396, 307);
+			this->textBox3->Location = System::Drawing::Point(139, 319);
+			this->textBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox3->Multiline = true;
 			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(309, 36);
+			this->textBox3->Size = System::Drawing::Size(683, 48);
 			this->textBox3->TabIndex = 14;
 			// 
 			// textBox4
 			// 
-			this->textBox4->Location = System::Drawing::Point(396, 370);
+			this->textBox4->Location = System::Drawing::Point(139, 422);
+			this->textBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox4->Multiline = true;
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->PasswordChar = '*';
-			this->textBox4->Size = System::Drawing::Size(309, 36);
+			this->textBox4->Size = System::Drawing::Size(289, 41);
 			this->textBox4->TabIndex = 15;
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold));
-			this->label6->Location = System::Drawing::Point(85, 427);
+			this->label6->Font = (gcnew System::Drawing::Font(L"Bahnschrift", 13.8F));
+			this->label6->Location = System::Drawing::Point(496, 390);
+			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(280, 36);
+			this->label6->Size = System::Drawing::Size(208, 28);
 			this->label6->TabIndex = 16;
 			this->label6->Text = L"Confirm password:";
 			// 
 			// textBox5
 			// 
-			this->textBox5->Location = System::Drawing::Point(396, 427);
+			this->textBox5->Location = System::Drawing::Point(501, 422);
+			this->textBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox5->Multiline = true;
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->PasswordChar = '*';
-			this->textBox5->Size = System::Drawing::Size(309, 36);
+			this->textBox5->Size = System::Drawing::Size(321, 41);
 			this->textBox5->TabIndex = 17;
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold));
-			this->button1->Location = System::Drawing::Point(575, 494);
+			this->button1->Location = System::Drawing::Point(393, 483);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(130, 49);
+			this->button1->Size = System::Drawing::Size(162, 67);
 			this->button1->TabIndex = 18;
-			this->button1->Text = L"Regist";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Text = L"Register";
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Registration::button1_Click);
 			// 
 			// linkLabel1
 			// 
 			this->linkLabel1->AutoSize = true;
-			this->linkLabel1->Location = System::Drawing::Point(665, 546);
+			this->linkLabel1->Location = System::Drawing::Point(449, 554);
+			this->linkLabel1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->linkLabel1->Name = L"linkLabel1";
-			this->linkLabel1->Size = System::Drawing::Size(40, 16);
+			this->linkLabel1->Size = System::Drawing::Size(54, 22);
 			this->linkLabel1->TabIndex = 19;
 			this->linkLabel1->TabStop = true;
 			this->linkLabel1->Text = L"Login";
@@ -222,10 +239,10 @@ namespace SmartX {
 			// 
 			// Registration
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(10, 22);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Lavender;
-			this->ClientSize = System::Drawing::Size(1067, 578);
+			this->ClientSize = System::Drawing::Size(954, 590);
 			this->Controls->Add(this->linkLabel1);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox5);
@@ -240,6 +257,9 @@ namespace SmartX {
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->pictureBox1);
+			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"Registration";
 			this->Text = L"Registration";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
