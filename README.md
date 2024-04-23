@@ -7,10 +7,10 @@
 
 <br>
 <p align = "center">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TDSkulieva22/smartx?style=flat-square">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/TDSkulieva22/smartx?style=flat-square">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TDSkulieva22/smartx?style=flat-square">
-    <img src="https://img.shields.io/github/languages/count/TDSkulieva22/smartx?style=flat-square">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/codingburgas/school-project-assignment-smartx?style=flat-square">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/school-project-assignment-smartx?style=flat-square">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/codingburgas/school-project-assignment-smartx?style=flat-square">
+    <img src="https://img.shields.io/github/languages/count/codingburgas/school-project-assignment-smartx?style=flat-square">
 </p>
 
 ## 📋 Description
